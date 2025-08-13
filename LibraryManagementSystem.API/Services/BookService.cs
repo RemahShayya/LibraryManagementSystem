@@ -39,13 +39,13 @@ namespace LibraryManagementSystem.API.Services
             var book = await repo.Get(id);
             return book;
         }
-        public async Task<Book?> Update(Book book, Book updatedBook)
+        public async Task<Book?> Update(Book book)
         {
             repo.Update(book);
             return book;
         }
 
-        public async Task Save(Publisher publisher)
+        public async Task Save(Book book)
         {
             await repo.SaveAsync();
         }

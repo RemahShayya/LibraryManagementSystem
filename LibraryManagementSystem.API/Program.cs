@@ -25,6 +25,10 @@ try
     builder.Host.UseNLog(); // Add NLog back to the logging pipeline
 
     builder.Services.AddScoped<IBookService, BookService>();
+    builder.Services.AddScoped<IAuthorService, AuthorService>();
+    builder.Services.AddScoped<ICategoryService, CategoryService>();
+    builder.Services.AddScoped<IPublisherService, PublisherService>();
+
 
     // Add services to the container
     builder.Services.AddControllers();

@@ -2,7 +2,7 @@
 
 namespace LibraryManagementSystem.API.Services.IServices
 {
-    public interface ICategory
+    public interface ICategoryService
     {
         Task<List<Category>> GetAllCategories();
         Task<Category?> GetCategoryById(Guid id);

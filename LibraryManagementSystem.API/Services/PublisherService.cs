@@ -40,7 +40,7 @@ namespace LibraryManagementSystem.API.Services
             return publisher;
         }
 
-        public async Task Save(Book book)
+        public async Task Save(Publisher publisher)
         {
             await repo.SaveAsync();
         }

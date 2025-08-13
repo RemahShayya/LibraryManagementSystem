@@ -5,7 +5,7 @@ using LibraryManagmentSystem.Entities;
 
 namespace LibraryManagementSystem.API.Services
 {
-    public class CategoryService:ICategory
+    public class CategoryService:ICategoryService
     {
         private readonly ILibraryGenericRepo<Category> repo;
 
