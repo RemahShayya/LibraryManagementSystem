@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibraryManagementSystem.Data.Migrations
 {
     [DbContext(typeof(LibraryContext))]
-    [Migration("20250806201740_Initial Migration")]
-    partial class InitialMigration
+    [Migration("20250813081917_Second Migration4")]
+    partial class SecondMigration4
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -84,7 +84,7 @@ namespace LibraryManagementSystem.Data.Migrations
                     b.Property<decimal?>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<Guid>("PublisherId")
+                    b.Property<Guid?>("PublisherId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Title")
@@ -176,9 +176,7 @@ namespace LibraryManagementSystem.Data.Migrations
                 {
                     b.HasOne("LibraryManagmentSystem.Entities.Publisher", "Publisher")
                         .WithMany("Books")
-                        .HasForeignKey("PublisherId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PublisherId");
 
                     b.Navigation("Publisher");
                 });

@@ -13,7 +13,7 @@ namespace LibraryManagmentSystem.Entities
         public string? Description { get; set; }
         public decimal? Price { get; set; }
         public Author Author { get; set; }
-        public Guid PublisherId { get; set; }
+        public Guid? PublisherId { get; set; } 
         public Publisher Publisher { get; set; }
         public ICollection<BookCategory> BookCategories { get; set; }
     }

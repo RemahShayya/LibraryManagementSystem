@@ -8,6 +8,7 @@ namespace LibraryManagementSystem.API.Services.IServices
         Task<Author?> GetAuthorById(Guid id);
         Task<Author> AddAuthor(Author author);
         Task Delete(Guid id);
-        Task<Author?> Update(Author author, Author updatedAuthor);
+        Task<Author?> Update(Author author);
+        Task Save(Author author);
     }
 }

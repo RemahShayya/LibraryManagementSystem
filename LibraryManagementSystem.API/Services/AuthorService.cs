@@ -36,17 +36,15 @@ namespace LibraryManagementSystem.API.Services.IServices
             var author = await repo.Get(id);
             return author;
         }
-        public async Task<Author?> Update(Author author, Author updatedAuthor)
+        public async Task<Author?> Update(Author author)
         {
-            author.FirstName = updatedAuthor.FirstName;
-            author.LastName = updatedAuthor.LastName;
-            author.BirthDate = updatedAuthor.BirthDate;
-            author.Country= updatedAuthor.Country;
-            author.LastModifiedAt= DateTime.UtcNow;
-            author.LastModifiedBy=updatedAuthor.LastModifiedBy;
-
             repo.Update(author);
             return author;
+        }
+
+        public async Task Save(Author author)
+        {
+            await repo.SaveAsync();
         }
     }
 }

@@ -1,12 +1,9 @@
 ﻿using AutoMapper;
-using LibraryManagementSystem.API.Services;
 using LibraryManagementSystem.API.Services.IServices;
-using LibraryManagementSystem.Data.Data.Repositories;
 using LibraryManagmentSystem.Entities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 using LibraryManagementSystem.Data.DTO;
+using LibraryManagementSystem.Data.DTO.Requests;
 
 namespace LibraryManagementSystem.API.Controllers
 {
@@ -20,7 +17,7 @@ namespace LibraryManagementSystem.API.Controllers
         public BookController(IBookService bookService, IMapper mapper)
         {
             this.bookService = bookService;
-            this.mapper=mapper;
+            this.mapper = mapper;
         }
 
         [HttpGet("{id}")]
@@ -39,18 +36,19 @@ namespace LibraryManagementSystem.API.Controllers
         public async Task<IActionResult> GetAllBooks()
         {
             List<Book> books = await bookService.GetAllBooks();
-            var bookDTO=mapper.Map<BookDTO>(books);
+            var bookDTO = mapper.Map<BookDTO>(books);
             return Ok(bookDTO);
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddBook(CreatedBookRequest request)
+        public async Task<IActionResult> AddBook([FromBody] CreatedBookRequest request)
         {
-            var book=mapper.Map<Book>(request);
+            var book = mapper.Map<Book>(request);
             var addedBook = await bookService.AddBook(book);
             await bookService.Save(book);
             var bookDTO = mapper.Map<BookDTO>(addedBook);
-            return CreatedAtAction(nameof(bookService.GetBookById), bookDTO);
+            return CreatedAtAction(nameof(GetBook), new { id = addedBook.Id }, bookDTO);
+
         }
 
         [HttpPut("{Id}")]
@@ -69,7 +67,7 @@ namespace LibraryManagementSystem.API.Controllers
             book.LastModifiedAt = DateTime.UtcNow;
             book.LastModifiedBy = bookUpdated.LastModifiedBy;
 
-            await bookService.Update(book, bookUpdated);
+            await bookService.Update(book);
             await bookService.Save(book);
             var bookDTO = mapper.Map<BookDTO>(book);
             return Ok(bookDTO);
@@ -78,8 +76,8 @@ namespace LibraryManagementSystem.API.Controllers
         [HttpDelete("{Id}")]
         public async Task<IActionResult> DeleteBook(Guid Id)
         {
-            var book= await bookService.GetBookById(Id);
-            if(book == null)
+            var book = await bookService.GetBookById(Id);
+            if (book == null)
             {
                 return NotFound("Book not found");
             }

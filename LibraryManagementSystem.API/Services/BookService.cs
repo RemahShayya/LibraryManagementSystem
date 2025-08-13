@@ -41,19 +41,11 @@ namespace LibraryManagementSystem.API.Services
         }
         public async Task<Book?> Update(Book book, Book updatedBook)
         {
-
-            book.Title = updatedBook.Title;
-            book.Description = updatedBook.Description;
-            book.Price = updatedBook.Price;
-            book.LastModifiedAt = DateTime.UtcNow;
-            book.LastModifiedBy = updatedBook.LastModifiedBy;
-            book.PublisherId = updatedBook.PublisherId;
-
             repo.Update(book);
             return book;
         }
 
-        public async Task Save(Book book)
+        public async Task Save(Publisher publisher)
         {
             await repo.SaveAsync();
         }

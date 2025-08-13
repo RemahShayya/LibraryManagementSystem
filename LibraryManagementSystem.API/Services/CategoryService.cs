@@ -1,10 +1,11 @@
-﻿using LibraryManagementSystem.Data.Data.Repositories;
+﻿using LibraryManagementSystem.API.Services.IServices;
+using LibraryManagementSystem.Data.Data.Repositories;
 using LibraryManagmentSystem.Data;
 using LibraryManagmentSystem.Entities;
 
 namespace LibraryManagementSystem.API.Services
 {
-    public class CategoryService
+    public class CategoryService:ICategory
     {
         private readonly ILibraryGenericRepo<Category> repo;
 
@@ -13,7 +14,7 @@ namespace LibraryManagementSystem.API.Services
             this.repo = repo;
         }
 
-        public async Task<Category> AddBook(Category category)
+        public async Task<Category> AddCategory(Category category)
         {
             return await repo.Add(category);
         }
@@ -35,14 +36,15 @@ namespace LibraryManagementSystem.API.Services
             var book = await repo.Get(id);
             return book;
         }
-        public async Task<Category?> Update(Category category, Category updatedCategory)
+        public async Task<Category?> Update(Category category)
         {
-            category.Name = updatedCategory.Name;
-            category.LastModifiedBy = updatedCategory.LastModifiedBy;
-            category.LastModifiedAt=DateTime.UtcNow;
-            
             repo.Update(category);
             return category;
+        }
+
+        public async Task Save(Category category)
+        {
+            await repo.SaveAsync();
         }
     }
 }

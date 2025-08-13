@@ -6,8 +6,9 @@ namespace LibraryManagementSystem.API.Services.IServices
     {
         Task<List<Category>> GetAllCategories();
         Task<Category?> GetCategoryById(Guid id);
-        Task<Category> AddAuthor(Category category);
+        Task<Category> AddCategory(Category category);
         Task Delete(Guid id);
-        Task<Category?> Update(Category category, Category updatedAuthor);
+        Task<Category?> Update(Category category);
+        Task Save(Category category);
     }
 }

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibraryManagementSystem.Data.DTO
+namespace LibraryManagementSystem.Data.DTO.Requests
 {
     public class CreatedBookRequest
     {
@@ -15,9 +15,7 @@ namespace LibraryManagementSystem.Data.DTO
         [Required]
         public decimal? Price { get; set; }
         [Required]
-        public int AuthorId { get; set; } 
-        [Required]
-        public int PublisherId { get; set; }
-        public List<int> BookCategoryIds { get; set; }
+        public Guid AuthorId { get; set; } 
+        public List<Guid> BookCategoryIds { get; set; }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using LibraryManagementSystem.API.Services;
 using LibraryManagementSystem.API.Services.IServices;
 using LibraryManagementSystem.Data.Data.Repositories;
-using LibraryManagementSystem.Data.DTO;
+using LibraryManagementSystem.Data.DTO.AutoMapper;
 using LibraryManagmentSystem.Data;
 using Microsoft.EntityFrameworkCore;
 using NLog;
@@ -38,7 +38,7 @@ try
 
     // Add repository pattern
     builder.Services.AddScoped(typeof(ILibraryGenericRepo<>), typeof(LibraryGenericRepo<>));
-    builder.Services.AddAutoMapper(typeof(BookAutoMapperProfile));
+    builder.Services.AddAutoMapper(typeof(LibraryAutoMapperProfile));
     builder.Services.AddControllers().AddJsonOptions(options =>
     {
         options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;

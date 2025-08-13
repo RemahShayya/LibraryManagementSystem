@@ -8,6 +8,7 @@ namespace LibraryManagementSystem.API.Services.IServices
         Task<Publisher?> GetPublisherById(Guid id);
         Task<Publisher> AddPublisher(Publisher publisher);
         Task Delete(Guid id);
-        Task<Publisher?> Update(Publisher Publisher, Publisher updatedPublisher);
+        Task<Publisher?> Update(Publisher Publisher);
+        Task Save(Publisher publisher);
     }
 }

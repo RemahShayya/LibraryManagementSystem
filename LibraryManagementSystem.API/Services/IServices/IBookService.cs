@@ -8,7 +8,7 @@ namespace LibraryManagementSystem.API.Services.IServices
         Task<Book?> GetBookById(Guid id);
         Task<Book> AddBook(Book book);
         Task Delete(Guid id);
-        Task<Book?> Update(Book book, Book updatedBook);
+        Task<Book?> Update(Book book);
         Task Save(Book book);
     }
 }

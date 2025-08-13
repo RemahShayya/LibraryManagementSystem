@@ -24,8 +24,6 @@ namespace LibraryManagementSystem.API.Services
             var publisher = await repo.Get(id);
             repo.Delete(publisher);
         }
-
-
         public async Task<List<Publisher>> GetAllPublishers()
         {
             return await repo.GetAll();
@@ -36,15 +34,15 @@ namespace LibraryManagementSystem.API.Services
             var publisher = await repo.Get(id);
             return publisher;
         }
-        public async Task<Publisher?> Update(Publisher publisher, Publisher updatedPublisher)
+        public async Task<Publisher?> Update(Publisher publisher)
         {
-            publisher.Name = updatedPublisher.Name;
-            publisher.Location = updatedPublisher.Location;
-            publisher.LastModifiedAt= DateTime.UtcNow;
-            publisher.LastModifiedBy= updatedPublisher.LastModifiedBy;
-
             repo.Update(publisher);
             return publisher;
+        }
+
+        public async Task Save(Book book)
+        {
+            await repo.SaveAsync();
         }
     }
 }
