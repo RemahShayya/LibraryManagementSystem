@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\Migrations\\20250819171340_Third Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LibraryManagementSystem.Data\\Migrations\\20250819171340_Third Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem.data\\dbcontext\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|solutionrelative:librarymanagementsystem.data\\dbcontext\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem\\services\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\services\\publisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem\\services\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\services\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem.data\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|solutionrelative:librarymanagementsystem.data\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem.data\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|solutionrelative:librarymanagementsystem.data\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem.data\\repositories\\identitygenericrepo\\identityrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|solutionrelative:librarymanagementsystem.data\\repositories\\identitygenericrepo\\identityrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem.data\\repositories\\identitygenericrepo\\iidentityrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|solutionrelative:librarymanagementsystem.data\\repositories\\identitygenericrepo\\iidentityrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem.data\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{238441E3-1178-4750-A2B1-FCAB0066A7DD}|LibraryManagementSystem.Data\\LibraryManagementSystem.Data.csproj|solutionrelative:librarymanagementsystem.data\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsystem\\librarymanagementsystem\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250819171340_Third Migration.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\Migrations\\20250819171340_Third Migration.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Data\\Migrations\\20250819171340_Third Migration.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\Migrations\\20250819171340_Third Migration.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Data\\Migrations\\20250819171340_Third Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T17:13:41.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\UserService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Services\\UserService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:12:20.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\DbContext\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Data\\DbContext\\LibraryContext.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\DbContext\\LibraryContext.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Data\\DbContext\\LibraryContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwCgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:13:23.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:08:32.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PublisherController.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Controllers\\PublisherController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Controllers\\PublisherController.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Controllers\\PublisherController.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Controllers\\PublisherController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:23:36.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PublisherService.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\PublisherService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Services\\PublisherService.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\PublisherService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Services\\PublisherService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:15:53.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs*",
+              "RelativeToolTip": "LibraryManagementSystem\\Program.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwCEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:08:33.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Services\\IServices\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\IServices\\IUserService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Services\\IServices\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T16:51:33.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\appsettings.json",
+              "RelativeToolTip": "LibraryManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-19T11:25:20.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\CategoryService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:15:29.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Data\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Data\\DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:06:45.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\Identity\\User.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Data\\Identity\\User.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\Identity\\User.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Data\\Identity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:02:12.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IdentityRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\Repositories\\IdentityGenericRepo\\IdentityRepo.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Data\\Repositories\\IdentityGenericRepo\\IdentityRepo.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\Repositories\\IdentityGenericRepo\\IdentityRepo.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Data\\Repositories\\IdentityGenericRepo\\IdentityRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T15:17:39.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IIdentityRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\Repositories\\IdentityGenericRepo\\IIdentityRepo.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Data\\Repositories\\IdentityGenericRepo\\IIdentityRepo.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\Repositories\\IdentityGenericRepo\\IIdentityRepo.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Data\\Repositories\\IdentityGenericRepo\\IIdentityRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T15:17:18.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\Entities\\Publisher.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Data\\Entities\\Publisher.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem.Data\\Entities\\Publisher.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Data\\Entities\\Publisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:24:59.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\BookService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Services\\BookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:16:09.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\AuthorService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Services\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\AuthorService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Services\\AuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T14:16:04.37Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+2025-08-19 14:50:52.273 +03:00 [INF] Remah Halabi Added
+2025-08-19 14:59:11.609 +03:00 [INF] User profile is available. Using 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-19 14:59:11.899 +03:00 [INF] Now listening on: https://localhost:7143
+2025-08-19 14:59:11.901 +03:00 [INF] Now listening on: http://localhost:5223
+2025-08-19 14:59:11.957 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-19 14:59:11.959 +03:00 [INF] Hosting environment: Development
+2025-08-19 14:59:11.961 +03:00 [INF] Content root path: C:\Users\Remah\Desktop\AST\Projects\LibraryManagementSystem\LibraryManagementSystem
+2025-08-19 14:59:23.428 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/scalar/ - null null
+2025-08-19 14:59:23.610 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-08-19 14:59:23.683 +03:00 [INF] Write content with HTTP Response ContentType of text/html
+2025-08-19 14:59:23.696 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2025-08-19 14:59:23.702 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/scalar/ - 200 null text/html 284.1344ms
+2025-08-19 14:59:23.714 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-19 14:59:23.714 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/scalar/scalar.js - null null
+2025-08-19 14:59:23.714 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/scalar/scalar.aspnetcore.js - null null
+2025-08-19 14:59:23.720 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - null null
+2025-08-19 14:59:23.733 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-08-19 14:59:23.735 +03:00 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2025-08-19 14:59:23.815 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript; charset=utf-8 101.1635ms
+2025-08-19 14:59:23.854 +03:00 [INF] Setting HTTP status code 304.
+2025-08-19 14:59:23.854 +03:00 [INF] Setting HTTP status code 304.
+2025-08-19 14:59:23.858 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2025-08-19 14:59:23.860 +03:00 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2025-08-19 14:59:23.861 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/scalar/scalar.aspnetcore.js - 304 null null 147.8565ms
+2025-08-19 14:59:23.863 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/scalar/scalar.js - 304 null null 149.2106ms
+2025-08-19 14:59:23.878 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - 200 null text/javascript; charset=UTF-8 164.0624ms
+2025-08-19 14:59:24.086 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/openapi/v1.json - null null
+2025-08-19 14:59:24.096 +03:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-08-19 14:59:24.278 +03:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-08-19 14:59:24.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7143/openapi/v1.json - null null
+2025-08-19 14:59:24.283 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/openapi/v1.json - 200 null application/json;charset=utf-8 196.8369ms
+2025-08-19 14:59:24.284 +03:00 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-08-19 14:59:24.312 +03:00 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2025-08-19 14:59:24.314 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7143/openapi/v1.json - 200 null application/json;charset=utf-8 35.73ms
+2025-08-19 14:59:39.528 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7143/api/Publisher - application/json 41
+2025-08-19 14:59:39.534 +03:00 [INF] Executing endpoint 'LibraryManagementSystem.API.Controllers.PublisherController.AddPublisher (LibraryManagementSystem.API)'
+2025-08-19 14:59:39.583 +03:00 [INF] Route matched with {action = "AddPublisher", controller = "Publisher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[LibraryManagementSystem.Data.DTO.PublisherDTO]] AddPublisher(LibraryManagementSystem.Data.DTO.Requests.CreatePublisherRequest) on controller LibraryManagementSystem.API.Controllers.PublisherController (LibraryManagementSystem.API).
+2025-08-19 14:59:40.570 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-08-19 14:59:40.829 +03:00 [INF] Bahaa Publisher Added
+2025-08-19 14:59:40.841 +03:00 [INF] Executing CreatedAtActionResult, writing value of type 'LibraryManagementSystem.Data.DTO.PublisherDTO'.
+2025-08-19 14:59:40.890 +03:00 [INF] Executed action LibraryManagementSystem.API.Controllers.PublisherController.AddPublisher (LibraryManagementSystem.API) in 1298.8666ms
+2025-08-19 14:59:40.892 +03:00 [INF] Executed endpoint 'LibraryManagementSystem.API.Controllers.PublisherController.AddPublisher (LibraryManagementSystem.API)'
+2025-08-19 14:59:40.897 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7143/api/Publisher - 201 null application/json; charset=utf-8 1368.6965ms
+2025-08-19 15:00:05.820 +03:00 [INF] Bahaa Publisher Added
+2025-08-19 15:02:05.269 +03:00 [INF]  Publisher Added
