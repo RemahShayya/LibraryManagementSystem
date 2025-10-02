@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsys-main\\librarymanagementsystem\\services\\pdfhtmlbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\services\\pdfhtmlbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768ED55D-4790-401B-8B35-9288497672C9}|LibrarymanagementSystem.Utiles\\LibrarymanagementSystem.Utiles.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsys-main\\librarymanagementsystem.utiles\\librarymanagementsystem.utiles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{768ED55D-4790-401B-8B35-9288497672C9}|LibrarymanagementSystem.Utiles\\LibrarymanagementSystem.Utiles.csproj|solutionrelative:librarymanagementsystem.utiles\\librarymanagementsystem.utiles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsys-main\\librarymanagementsystem\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768ED55D-4790-401B-8B35-9288497672C9}|LibrarymanagementSystem.Utiles\\LibrarymanagementSystem.Utiles.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsys-main\\librarymanagementsystem.utiles\\html\\pdfhtml.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{768ED55D-4790-401B-8B35-9288497672C9}|LibrarymanagementSystem.Utiles\\LibrarymanagementSystem.Utiles.csproj|solutionrelative:librarymanagementsystem.utiles\\html\\pdfhtml.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsys-main\\librarymanagementsystem\\services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\services\\pdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsys-main\\librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|c:\\users\\remah\\desktop\\ast\\projects\\librarymanagementsys-main\\librarymanagementsystem\\services\\iservices\\ipdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46E7A649-E487-4979-A462-C2504AC2B8A6}|LibraryManagementSystem\\LibraryManagementSystem.API.csproj|solutionrelative:librarymanagementsystem\\services\\iservices\\ipdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PdfHtml.html",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibrarymanagementSystem.Utiles\\HTML\\PdfHtml.html",
+              "RelativeDocumentMoniker": "LibrarymanagementSystem.Utiles\\HTML\\PdfHtml.html",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibrarymanagementSystem.Utiles\\HTML\\PdfHtml.html",
+              "RelativeToolTip": "LibrarymanagementSystem.Utiles\\HTML\\PdfHtml.html",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-01T13:50:33.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibrarymanagementSystem.Utiles.csproj",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibrarymanagementSystem.Utiles\\LibrarymanagementSystem.Utiles.csproj",
+              "RelativeDocumentMoniker": "LibrarymanagementSystem.Utiles\\LibrarymanagementSystem.Utiles.csproj",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibrarymanagementSystem.Utiles\\LibrarymanagementSystem.Utiles.csproj",
+              "RelativeToolTip": "LibrarymanagementSystem.Utiles\\LibrarymanagementSystem.Utiles.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-01T13:44:15.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PdfHtmlBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibraryManagementSystem\\Services\\PdfHtmlBuilder.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Services\\PdfHtmlBuilder.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibraryManagementSystem\\Services\\PdfHtmlBuilder.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Services\\PdfHtmlBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:18:58.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPdfService.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibraryManagementSystem\\Services\\IServices\\IPdfService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Services\\IServices\\IPdfService.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibraryManagementSystem\\Services\\IServices\\IPdfService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Services\\IServices\\IPdfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:15:00.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PdfService.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibraryManagementSystem\\Services\\PdfService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Services\\PdfService.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibraryManagementSystem\\Services\\PdfService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Services\\PdfService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:13:30.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibraryManagementSystem\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Controllers\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibraryManagementSystem\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAhwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:08:22.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibraryManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSys-main\\LibraryManagementSystem\\Program.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Program.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T11:55:48.888Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

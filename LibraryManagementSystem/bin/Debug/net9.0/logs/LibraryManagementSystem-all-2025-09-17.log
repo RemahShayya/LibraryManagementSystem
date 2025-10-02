@@ -1,0 +1,747 @@
+2025-09-17 16:49:34.4279|0|DEBUG|LibraryManagementSystem.API.Program|init main 
+2025-09-17 16:49:35.0131|0|INFO|LibraryManagementSystem.API.Program|✅ Test log: Application started 
+2025-09-17 16:49:37.5445|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-17 16:49:37.6874|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2025-09-17 16:49:37.7478|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-17 16:49:37.7624|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys\key-0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d.xml'. 
+2025-09-17 16:49:37.8102|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys\key-90e9434f-347d-4778-9235-65398a291d04.xml'. 
+2025-09-17 16:49:37.8443|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d}. 
+2025-09-17 16:49:37.8541|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {90e9434f-347d-4778-9235-65398a291d04}. 
+2025-09-17 16:49:37.8671|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} with expiration date 2025-10-28 11:37:33Z as default key. 
+2025-09-17 16:49:37.8671|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-17 16:49:37.8671|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2025-09-17 16:49:37.8794|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-17 16:49:37.8794|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-17 16:49:37.8794|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-17 16:49:37.8794|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} as the default key. 
+2025-09-17 16:49:37.8794|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} was loaded during application startup. 
+2025-09-17 16:49:37.8967|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware|Middleware loaded 
+2025-09-17 16:49:37.8967|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16539 B). 
+2025-09-17 16:49:37.8967|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-09-17 16:49:37.9940|7|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-17 16:49:37.9940|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2025-09-17 16:49:38.0181|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-09-17 16:49:38.1639|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7143 
+2025-09-17 16:49:38.1639|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5223 
+2025-09-17 16:49:38.1639|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly LibraryManagementSystem.API 
+2025-09-17 16:49:38.1639|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-09-17 16:49:38.1639|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-09-17 16:49:38.1639|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-09-17 16:49:38.1828|2|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-17 16:49:38.1828|2|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-17 16:49:38.2546|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2025-09-17 16:49:38.2546|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2025-09-17 16:49:38.2546|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Remah\Desktop\AST\Projects\LibraryManagementSystem\LibraryManagementSystem 
+2025-09-17 16:49:38.2546|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2025-09-17 16:49:41.9488|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNFLU46OHQ1I" accepted. 
+2025-09-17 16:49:41.9488|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNFLU46OHQ1I" started. 
+2025-09-17 16:49:42.0676|3|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HNFLU46OHQ1I established using the following protocol: Tls13 
+2025-09-17 16:49:42.1217|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 16:49:42.1330|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 16:49:42.1330|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 16:49:42.1330|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 16:49:42.1330|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 16:49:42.1330|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received HEADERS frame for stream ID 1 with length 538 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:49:42.1683|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 16:49:42.2087|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/scalar/ - - - 
+2025-09-17 16:49:42.5001|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:49:42.6112|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/scalar/' 
+2025-09-17 16:49:42.6124|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/{documentName?}' with route pattern '/scalar/{documentName?}' is valid for the request path '/scalar/' 
+2025-09-17 16:49:42.6124|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /scalar/{documentName?}' 
+2025-09-17 16:49:42.6124|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:49:42.7356|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:49:42.7374|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /scalar/{documentName?}' 
+2025-09-17 16:49:42.7998|2|INFO|Microsoft.AspNetCore.Http.Result.ContentResult|Write content with HTTP Response ContentType of text/html 
+2025-09-17 16:49:42.7998|1|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2025-09-17 16:49:42.7998|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2025-09-17 16:49:42.7998|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending HEADERS frame for stream ID 1 with length 52 and flags END_HEADERS. 
+2025-09-17 16:49:42.7998|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 1 with length 882 and flags NONE. 
+2025-09-17 16:49:42.7998|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /scalar/{documentName?}' 
+2025-09-17 16:49:42.7998|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 1 with length 437 and flags NONE. 
+2025-09-17 16:49:42.7998|2|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2025-09-17 16:49:42.7998|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2025-09-17 16:49:42.7998|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2025-09-17 16:49:42.8188|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/scalar/ - 200 - text/html 621.3336ms 
+2025-09-17 16:49:42.8188|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received HEADERS frame for stream ID 3 with length 109 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:49:42.8188|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received HEADERS frame for stream ID 5 with length 54 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:49:42.8188|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received HEADERS frame for stream ID 7 with length 75 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:49:42.8188|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 
+2025-09-17 16:49:42.8188|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/scalar/scalar.js - - - 
+2025-09-17 16:49:42.8188|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:49:42.8518|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|2 candidate(s) found for the request path '/scalar/scalar.js' 
+2025-09-17 16:49:42.8518|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/scalar/scalar.aspnetcore.js - - - 
+2025-09-17 16:49:42.8518|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/scalar.js' with route pattern '/scalar/scalar.js' is valid for the request path '/scalar/scalar.js' 
+2025-09-17 16:49:42.8518|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:49:42.8518|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/{documentName?}' with route pattern '/scalar/{documentName?}' is valid for the request path '/scalar/scalar.js' 
+2025-09-17 16:49:42.8518|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|2 candidate(s) found for the request path '/scalar/scalar.aspnetcore.js' 
+2025-09-17 16:49:42.8518|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' with route pattern '/scalar/scalar.aspnetcore.js' is valid for the request path '/scalar/scalar.aspnetcore.js' 
+2025-09-17 16:49:42.8518|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/{documentName?}' with route pattern '/scalar/{documentName?}' is valid for the request path '/scalar/scalar.aspnetcore.js' 
+2025-09-17 16:49:42.8518|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' 
+2025-09-17 16:49:42.8518|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /scalar/scalar.js' 
+2025-09-17 16:49:42.8518|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:49:42.8518|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:49:42.8518|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:49:42.8518|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:49:42.8518|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /scalar/scalar.js' 
+2025-09-17 16:49:42.8518|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' 
+2025-09-17 16:49:42.8838|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS. 
+2025-09-17 16:49:42.8838|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2025-09-17 16:49:42.8838|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 3 with length 155 and flags NONE. 
+2025-09-17 16:49:42.8986|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js 
+2025-09-17 16:49:42.8986|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-09-17 16:49:42.8986|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 79.9413ms 
+2025-09-17 16:49:42.8986|1|INFO|Microsoft.AspNetCore.Http.Result.StatusCodeResult|Setting HTTP status code 304. 
+2025-09-17 16:49:42.8986|1|INFO|Microsoft.AspNetCore.Http.Result.StatusCodeResult|Setting HTTP status code 304. 
+2025-09-17 16:49:42.8986|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' 
+2025-09-17 16:49:42.8986|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /scalar/scalar.js' 
+2025-09-17 16:49:42.8986|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/scalar/scalar.aspnetcore.js - 304 - - 51.9962ms 
+2025-09-17 16:49:42.8986|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/scalar/scalar.js - 304 - - 83.6324ms 
+2025-09-17 16:49:42.8986|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending HEADERS frame for stream ID 7 with length 30 and flags END_STREAM, END_HEADERS. 
+2025-09-17 16:49:42.8986|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received HEADERS frame for stream ID 9 with length 60 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:49:42.8986|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending HEADERS frame for stream ID 5 with length 5 and flags END_STREAM, END_HEADERS. 
+2025-09-17 16:49:42.8986|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending HEADERS frame for stream ID 9 with length 119 and flags END_HEADERS. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 9986 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 1806 and flags NONE. 
+2025-09-17 16:49:42.9727|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2025-09-17 16:49:42.9727|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 72.8437ms 
+2025-09-17 16:49:43.3976|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received HEADERS frame for stream ID 11 with length 50 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:49:43.3976|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/openapi/v1.json - - - 
+2025-09-17 16:49:43.3976|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:49:43.3976|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/openapi/v1.json' 
+2025-09-17 16:49:43.3976|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /openapi/{documentName}.json' with route pattern '/openapi/{documentName}.json' is valid for the request path '/openapi/v1.json' 
+2025-09-17 16:49:43.3976|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:49:43.3976|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:49:43.3976|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:49:43.3976|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:49:43.7283|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending HEADERS frame for stream ID 11 with length 65 and flags END_HEADERS. 
+2025-09-17 16:49:43.7283|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 16:49:43.7283|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 16:49:43.7283|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 16:49:43.7283|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 11 with length 9276 and flags NONE. 
+2025-09-17 16:49:43.7283|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received HEADERS frame for stream ID 13 with length 37 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:49:43.7283|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/openapi/v1.json - - - 
+2025-09-17 16:49:43.7283|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:49:43.7283|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/openapi/v1.json' 
+2025-09-17 16:49:43.7283|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:49:43.7283|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /openapi/{documentName}.json' with route pattern '/openapi/{documentName}.json' is valid for the request path '/openapi/v1.json' 
+2025-09-17 16:49:43.7283|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:49:43.7283|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:49:43.7283|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:49:43.7283|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:49:43.7383|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2025-09-17 16:49:43.7383|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/openapi/v1.json - 200 - application/json;charset=utf-8 340.2396ms 
+2025-09-17 16:49:43.8055|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending HEADERS frame for stream ID 13 with length 4 and flags END_HEADERS. 
+2025-09-17 16:49:43.8055|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-17 16:49:43.8055|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-17 16:49:43.8055|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-17 16:49:43.8055|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 13 with length 9276 and flags NONE. 
+2025-09-17 16:49:43.8055|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:49:43.8055|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM. 
+2025-09-17 16:49:43.8055|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/openapi/v1.json - 200 - application/json;charset=utf-8 73.4269ms 
+2025-09-17 16:49:45.1139|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received HEADERS frame for stream ID 15 with length 88 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:49:45.1139|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/favicon.ico - - - 
+2025-09-17 16:49:45.1139|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:49:45.1139|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/favicon.ico' 
+2025-09-17 16:49:45.1139|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2025-09-17 16:49:45.1139|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:49:45.1139|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/favicon.ico - 404 0 - 2.9749ms 
+2025-09-17 16:49:45.1139|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending HEADERS frame for stream ID 15 with length 37 and flags END_STREAM, END_HEADERS. 
+2025-09-17 16:49:45.1139|16|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7143/favicon.ico, Response status code: 404 
+2025-09-17 16:49:45.1139|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received HEADERS frame for stream ID 17 with length 32 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:49:45.1272|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/favicon.ico - - - 
+2025-09-17 16:49:45.1272|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:49:45.1272|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/favicon.ico' 
+2025-09-17 16:49:45.1272|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2025-09-17 16:49:45.1272|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:49:45.1272|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/favicon.ico - 404 0 - 0.9153ms 
+2025-09-17 16:49:45.1272|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending HEADERS frame for stream ID 17 with length 7 and flags END_STREAM, END_HEADERS. 
+2025-09-17 16:49:45.1272|16|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7143/favicon.ico, Response status code: 404 
+2025-09-17 16:50:40.4381|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received HEADERS frame for stream ID 19 with length 45 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:50:40.4381|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-09-17 16:50:40.4381|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-09-17 16:50:40.4755|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/api/BookRental/export-rentals - - - 
+2025-09-17 16:50:40.4857|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:50:40.4857|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|2 candidate(s) found for the request path '/api/BookRental/export-rentals' 
+2025-09-17 16:50:40.4857|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API)' with route pattern 'api/BookRental/export-rentals' is valid for the request path '/api/BookRental/export-rentals' 
+2025-09-17 16:50:40.4857|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.BookRentalController.GetRentalById (LibraryManagementSystem.API)' with route pattern 'api/BookRental/{rentalId}' is valid for the request path '/api/BookRental/export-rentals' 
+2025-09-17 16:50:40.4857|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API)' 
+2025-09-17 16:50:40.4857|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:50:40.4857|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:50:40.4857|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API)' 
+2025-09-17 16:50:40.6043|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ExportRentals", controller = "BookRental"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportRentals(LibraryManagementSystem.API.Services.ExcelExportService) on controller LibraryManagementSystem.API.Controllers.BookRentalController (LibraryManagementSystem.API). 
+2025-09-17 16:50:40.6043|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2025-09-17 16:50:40.6043|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2025-09-17 16:50:40.6043|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-17 16:50:40.6043|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2025-09-17 16:50:40.6043|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-17 16:50:40.6043|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller LibraryManagementSystem.API.Controllers.BookRentalController (LibraryManagementSystem.API) 
+2025-09-17 16:50:41.0778|10401|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-09-17 16:50:41.4216|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller LibraryManagementSystem.API.Controllers.BookRentalController (LibraryManagementSystem.API) 
+2025-09-17 16:50:41.4367|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'excelExportService' of type 'LibraryManagementSystem.API.Services.ExcelExportService' ... 
+2025-09-17 16:50:41.4767|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API) in 845.1445ms 
+2025-09-17 16:50:41.4767|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API)' 
+2025-09-17 16:50:41.6031|0|ERROR|LibraryManagementSystem.API.Exceptions.GlobalExceptionHandlerMiddleWare|_ WHAT HAVE YOU DONE!!! System.InvalidOperationException: No service for type 'LibraryManagementSystem.API.Services.ExcelExportService' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at LibraryManagementSystem.API.Exceptions.GlobalExceptionHandlerMiddleWare.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\Remah\Desktop\AST\Projects\LibraryManagementSystem\LibraryManagementSystem\Exceptions\GlobalExceptionHandler.cs:line 21
+2025-09-17 16:50:41.7489|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending HEADERS frame for stream ID 19 with length 51 and flags END_HEADERS. 
+2025-09-17 16:50:41.7489|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" sending DATA frame for stream ID 19 with length 151 and flags END_STREAM. 
+2025-09-17 16:50:41.7489|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU46OHQ1I" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 16:50:41.7489|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/api/BookRental/export-rentals - 500 - application/json 1312.5381ms 
+2025-09-17 16:51:42.7118|0|DEBUG|LibraryManagementSystem.API.Program|init main 
+2025-09-17 16:51:43.0747|0|INFO|LibraryManagementSystem.API.Program|✅ Test log: Application started 
+2025-09-17 16:51:43.8388|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-17 16:51:43.9769|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2025-09-17 16:51:44.0530|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-17 16:51:44.0736|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys\key-0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d.xml'. 
+2025-09-17 16:51:44.0838|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys\key-90e9434f-347d-4778-9235-65398a291d04.xml'. 
+2025-09-17 16:51:44.0965|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d}. 
+2025-09-17 16:51:44.0965|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {90e9434f-347d-4778-9235-65398a291d04}. 
+2025-09-17 16:51:44.1272|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} with expiration date 2025-10-28 11:37:33Z as default key. 
+2025-09-17 16:51:44.1328|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-17 16:51:44.1328|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2025-09-17 16:51:44.1328|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-17 16:51:44.1452|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-17 16:51:44.1452|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-17 16:51:44.1452|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} as the default key. 
+2025-09-17 16:51:44.1452|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} was loaded during application startup. 
+2025-09-17 16:51:44.1452|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware|Middleware loaded 
+2025-09-17 16:51:44.1595|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16539 B). 
+2025-09-17 16:51:44.1595|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-09-17 16:51:44.2927|7|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-17 16:51:44.2927|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2025-09-17 16:51:44.3389|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-09-17 16:51:44.5619|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7143 
+2025-09-17 16:51:44.5731|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5223 
+2025-09-17 16:51:44.5731|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly LibraryManagementSystem.API 
+2025-09-17 16:51:44.5731|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-09-17 16:51:44.5731|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-09-17 16:51:44.5731|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-09-17 16:51:44.5844|2|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-17 16:51:44.5844|2|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-17 16:51:44.6527|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2025-09-17 16:51:44.6527|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2025-09-17 16:51:44.6527|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Remah\Desktop\AST\Projects\LibraryManagementSystem\LibraryManagementSystem 
+2025-09-17 16:51:44.6527|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2025-09-17 16:51:54.0582|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNFLU5E4ECDU" accepted. 
+2025-09-17 16:51:54.0582|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNFLU5E4ECDU" started. 
+2025-09-17 16:51:54.1848|3|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HNFLU5E4ECDU established using the following protocol: Tls13 
+2025-09-17 16:51:54.2457|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 16:51:54.2576|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 16:51:54.2576|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-17 16:51:54.2576|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 16:51:54.2576|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 16:51:54.2576|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received HEADERS frame for stream ID 1 with length 514 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:51:54.3123|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-17 16:51:54.3488|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/scalar/ - - - 
+2025-09-17 16:51:54.5717|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:51:54.6707|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/scalar/' 
+2025-09-17 16:51:54.6707|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/{documentName?}' with route pattern '/scalar/{documentName?}' is valid for the request path '/scalar/' 
+2025-09-17 16:51:54.6707|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /scalar/{documentName?}' 
+2025-09-17 16:51:54.6707|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:51:54.8485|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:51:54.8485|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /scalar/{documentName?}' 
+2025-09-17 16:51:54.9838|2|INFO|Microsoft.AspNetCore.Http.Result.ContentResult|Write content with HTTP Response ContentType of text/html 
+2025-09-17 16:51:54.9838|1|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2025-09-17 16:51:54.9894|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2025-09-17 16:51:54.9894|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending HEADERS frame for stream ID 1 with length 52 and flags END_HEADERS. 
+2025-09-17 16:51:54.9894|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 1 with length 882 and flags NONE. 
+2025-09-17 16:51:54.9894|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 1 with length 437 and flags NONE. 
+2025-09-17 16:51:54.9894|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /scalar/{documentName?}' 
+2025-09-17 16:51:54.9894|2|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2025-09-17 16:51:54.9894|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2025-09-17 16:51:54.9894|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2025-09-17 16:51:55.0085|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/scalar/ - 200 - text/html 672.2455ms 
+2025-09-17 16:51:55.0321|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received HEADERS frame for stream ID 3 with length 96 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:51:55.0321|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/scalar/scalar.js - - - 
+2025-09-17 16:51:55.0321|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:51:55.0361|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|2 candidate(s) found for the request path '/scalar/scalar.js' 
+2025-09-17 16:51:55.0361|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/scalar.js' with route pattern '/scalar/scalar.js' is valid for the request path '/scalar/scalar.js' 
+2025-09-17 16:51:55.0361|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/{documentName?}' with route pattern '/scalar/{documentName?}' is valid for the request path '/scalar/scalar.js' 
+2025-09-17 16:51:55.0361|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /scalar/scalar.js' 
+2025-09-17 16:51:55.0361|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:51:55.0361|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:51:55.0361|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /scalar/scalar.js' 
+2025-09-17 16:51:55.0361|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received HEADERS frame for stream ID 5 with length 53 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:51:55.0361|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received HEADERS frame for stream ID 7 with length 73 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:51:55.0361|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 
+2025-09-17 16:51:55.0361|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/scalar/scalar.aspnetcore.js - - - 
+2025-09-17 16:51:55.0361|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:51:55.0911|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|2 candidate(s) found for the request path '/scalar/scalar.aspnetcore.js' 
+2025-09-17 16:51:55.1315|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' with route pattern '/scalar/scalar.aspnetcore.js' is valid for the request path '/scalar/scalar.aspnetcore.js' 
+2025-09-17 16:51:55.1315|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/{documentName?}' with route pattern '/scalar/{documentName?}' is valid for the request path '/scalar/scalar.aspnetcore.js' 
+2025-09-17 16:51:55.1315|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' 
+2025-09-17 16:51:55.1315|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:51:55.1538|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:51:55.1538|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' 
+2025-09-17 16:51:55.1644|1|INFO|Microsoft.AspNetCore.Http.Result.StatusCodeResult|Setting HTTP status code 304. 
+2025-09-17 16:51:55.1644|1|INFO|Microsoft.AspNetCore.Http.Result.StatusCodeResult|Setting HTTP status code 304. 
+2025-09-17 16:51:55.1644|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /scalar/scalar.js' 
+2025-09-17 16:51:55.1644|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' 
+2025-09-17 16:51:55.1644|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/scalar/scalar.aspnetcore.js - 304 - - 126.6932ms 
+2025-09-17 16:51:55.1644|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/scalar/scalar.js - 304 - - 131.9163ms 
+2025-09-17 16:51:55.1644|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending HEADERS frame for stream ID 7 with length 30 and flags END_STREAM, END_HEADERS. 
+2025-09-17 16:51:55.1644|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending HEADERS frame for stream ID 3 with length 5 and flags END_STREAM, END_HEADERS. 
+2025-09-17 16:51:55.1644|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS. 
+2025-09-17 16:51:55.1644|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2025-09-17 16:51:55.1644|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 5 with length 155 and flags NONE. 
+2025-09-17 16:51:55.1758|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received HEADERS frame for stream ID 9 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:51:55.1758|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 
+2025-09-17 16:51:55.1758|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js 
+2025-09-17 16:51:55.1758|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-09-17 16:51:55.1758|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 142.3064ms 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending HEADERS frame for stream ID 9 with length 119 and flags END_HEADERS. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 9986 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 1806 and flags NONE. 
+2025-09-17 16:51:55.2225|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 52.7447ms 
+2025-09-17 16:51:55.2225|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2025-09-17 16:51:55.2908|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received HEADERS frame for stream ID 11 with length 48 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:51:55.2908|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/openapi/v1.json - - - 
+2025-09-17 16:51:55.2908|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:51:55.2908|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/openapi/v1.json' 
+2025-09-17 16:51:55.2908|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /openapi/{documentName}.json' with route pattern '/openapi/{documentName}.json' is valid for the request path '/openapi/v1.json' 
+2025-09-17 16:51:55.2908|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:51:55.2908|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:51:55.2908|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:51:55.2908|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:51:55.5928|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending HEADERS frame for stream ID 11 with length 35 and flags END_HEADERS. 
+2025-09-17 16:51:55.5928|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 16:51:55.5928|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 16:51:55.5928|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-17 16:51:55.5928|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 11 with length 9276 and flags NONE. 
+2025-09-17 16:51:55.5928|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received HEADERS frame for stream ID 13 with length 35 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:51:55.5928|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/openapi/v1.json - - - 
+2025-09-17 16:51:55.5928|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:51:55.5928|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/openapi/v1.json' 
+2025-09-17 16:51:55.5928|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /openapi/{documentName}.json' with route pattern '/openapi/{documentName}.json' is valid for the request path '/openapi/v1.json' 
+2025-09-17 16:51:55.5928|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:51:55.5928|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:51:55.5928|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:51:55.5928|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:51:55.5984|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:51:55.5984|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/openapi/v1.json - 200 - application/json;charset=utf-8 316.7181ms 
+2025-09-17 16:51:55.5984|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2025-09-17 16:51:55.7074|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending HEADERS frame for stream ID 13 with length 34 and flags END_HEADERS. 
+2025-09-17 16:51:55.7074|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-17 16:51:55.7074|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-17 16:51:55.7074|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-17 16:51:55.7074|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 13 with length 9276 and flags NONE. 
+2025-09-17 16:51:55.7074|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-17 16:51:55.7074|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/openapi/v1.json - 200 - application/json;charset=utf-8 111.7696ms 
+2025-09-17 16:51:55.7074|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM. 
+2025-09-17 16:51:59.6098|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received HEADERS frame for stream ID 15 with length 45 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-17 16:51:59.6119|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/api/BookRental/export-rentals - - - 
+2025-09-17 16:51:59.6119|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-17 16:51:59.6119|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|2 candidate(s) found for the request path '/api/BookRental/export-rentals' 
+2025-09-17 16:51:59.6119|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API)' with route pattern 'api/BookRental/export-rentals' is valid for the request path '/api/BookRental/export-rentals' 
+2025-09-17 16:51:59.6119|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.BookRentalController.GetRentalById (LibraryManagementSystem.API)' with route pattern 'api/BookRental/{rentalId}' is valid for the request path '/api/BookRental/export-rentals' 
+2025-09-17 16:51:59.6119|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API)' 
+2025-09-17 16:51:59.6119|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-17 16:51:59.6119|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-17 16:51:59.6119|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API)' 
+2025-09-17 16:51:59.6950|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ExportRentals", controller = "BookRental"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExportRentals(LibraryManagementSystem.API.Services.ExcelExportService) on controller LibraryManagementSystem.API.Controllers.BookRentalController (LibraryManagementSystem.API). 
+2025-09-17 16:51:59.6950|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2025-09-17 16:51:59.6950|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2025-09-17 16:51:59.6950|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-17 16:51:59.6950|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2025-09-17 16:51:59.6950|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-17 16:51:59.6950|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller LibraryManagementSystem.API.Controllers.BookRentalController (LibraryManagementSystem.API) 
+2025-09-17 16:52:00.0440|10401|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-09-17 16:52:00.4031|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller LibraryManagementSystem.API.Controllers.BookRentalController (LibraryManagementSystem.API) 
+2025-09-17 16:52:00.4147|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'excelExportService' of type 'LibraryManagementSystem.API.Services.ExcelExportService' ... 
+2025-09-17 16:52:00.4147|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'excelExportService' of type 'LibraryManagementSystem.API.Services.ExcelExportService'. 
+2025-09-17 16:52:00.4147|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'excelExportService' of type 'LibraryManagementSystem.API.Services.ExcelExportService' ... 
+2025-09-17 16:52:00.4147|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'excelExportService' of type 'LibraryManagementSystem.API.Services.ExcelExportService'. 
+2025-09-17 16:52:00.4290|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 16:52:00.4290|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 16:52:00.4290|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 16:52:00.4290|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 16:52:00.4510|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API) - Validation state: Valid 
+2025-09-17 16:52:00.4510|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API) with arguments (LibraryManagementSystem.API.Services.ExcelExportService) 
+2025-09-17 16:52:02.0646|10601|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'BookId'} was not created on entity type 'BookCategory' as the properties are already covered by the index {'BookId', 'CategoryId'}. 
+2025-09-17 16:52:02.0646|10601|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}. 
+2025-09-17 16:52:02.0646|10601|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}. 
+2025-09-17 16:52:02.7956|30000|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-09-17 16:52:03.0753|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 9.0.8 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer  
+2025-09-17 16:52:03.2770|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<BookRentals>()
+    .Include(r => r.Customer)
+    .Include(r => r.Book)' 
+2025-09-17 16:52:03.5149|10112|DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'BookRentals.Customer'. 
+2025-09-17 16:52:03.5149|10112|DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'BookRentals.Book'. 
+2025-09-17 16:52:04.4695|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<BookRentals>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: BookRentals.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: BookRentals.BookId (Guid) Required FK Index, 1], [Property: BookRentals.CustomerId (string) Required FK Index, 2], [Property: BookRentals.Price (double) Required, 3], [Property: BookRentals.Quantity (int) Required, 4], [Property: BookRentals.RentEndDate (DateTime) Required, 5], [Property: BookRentals.RentStartDate (DateTime) Required, 6] }
+            1 -> Dictionary<IProperty, int> { [Property: User.Id (string) Required PK AfterSave:Throw, 7], [Property: User.AccessFailedCount (int) Required, 8], [Property: User.ConcurrencyStamp (string) Concurrency, 9], [Property: User.DateCreated (DateTime) Required, 10], [Property: User.Email (string) MaxLength(256), 11], [Property: User.EmailConfirmed (bool) Required, 12], [Property: User.FirstName (string) Required, 13], [Property: User.LastName (string) Required, 14], [Property: User.LockoutEnabled (bool) Required, 15], [Property: User.LockoutEnd (DateTimeOffset?), 16], [Property: User.NormalizedEmail (string) Index MaxLength(256), 17], [Property: User.NormalizedUserName (string) Index MaxLength(256), 18], [Property: User.PasswordHash (string), 19], [Property: User.PhoneNumber (string), 20], [Property: User.PhoneNumberConfirmed (bool) Required, 21], [Property: User.SecurityStamp (string), 22], [Property: User.TwoFactorEnabled (bool) Required, 23], [Property: User.UserName (string) MaxLength(256), 24] }
+            2 -> Dictionary<IProperty, int> { [Property: Book.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 25], [Property: Book.CreatedAt (DateTime) Required, 26], [Property: Book.Description (string), 27], [Property: Book.LastModifiedAt (DateTime?), 28], [Property: Book.LastModifiedBy (DateTime?), 29], [Property: Book.Price (decimal?), 30], [Property: Book.PublisherId (Guid?) FK Index, 31], [Property: Book.Quantity (int) Required, 32], [Property: Book.Title (string), 33] }
+        SELECT b.Id, b.BookId, b.CustomerId, b.Price, b.Quantity, b.RentEndDate, b.RentStartDate, a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.DateCreated, a.Email, a.EmailConfirmed, a.FirstName, a.LastName, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName, b0.Id, b0.CreatedAt, b0.Description, b0.LastModifiedAt, b0.LastModifiedBy, b0.Price, b0.PublisherId, b0.Quantity, b0.Title
+        FROM BookRentals AS b
+        INNER JOIN AspNetUsers AS a ON b.CustomerId == a.Id
+        INNER JOIN Books AS b0 ON b.BookId == b0.Id) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: BookRentals.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: BookRentals.BookId (Guid) Required FK Index, 1], [Property: BookRentals.CustomerId (string) Required FK Index, 2], [Property: BookRentals.Price (double) Required, 3], [Property: BookRentals.Quantity (int) Required, 4], [Property: BookRentals.RentEndDate (DateTime) Required, 5], [Property: BookRentals.RentStartDate (DateTime) Required, 6] }
+            1 -> Dictionary<IProperty, int> { [Property: User.Id (string) Required PK AfterSave:Throw, 7], [Property: User.AccessFailedCount (int) Required, 8], [Property: User.ConcurrencyStamp (string) Concurrency, 9], [Property: User.DateCreated (DateTime) Required, 10], [Property: User.Email (string) MaxLength(256), 11], [Property: User.EmailConfirmed (bool) Required, 12], [Property: User.FirstName (string) Required, 13], [Property: User.LastName (string) Required, 14], [Property: User.LockoutEnabled (bool) Required, 15], [Property: User.LockoutEnd (DateTimeOffset?), 16], [Property: User.NormalizedEmail (string) Index MaxLength(256), 17], [Property: User.NormalizedUserName (string) Index MaxLength(256), 18], [Property: User.PasswordHash (string), 19], [Property: User.PhoneNumber (string), 20], [Property: User.PhoneNumberConfirmed (bool) Required, 21], [Property: User.SecurityStamp (string), 22], [Property: User.TwoFactorEnabled (bool) Required, 23], [Property: User.UserName (string) MaxLength(256), 24] }
+            2 -> Dictionary<IProperty, int> { [Property: Book.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 25], [Property: Book.CreatedAt (DateTime) Required, 26], [Property: Book.Description (string), 27], [Property: Book.LastModifiedAt (DateTime?), 28], [Property: Book.LastModifiedBy (DateTime?), 29], [Property: Book.Price (decimal?), 30], [Property: Book.PublisherId (Guid?) FK Index, 31], [Property: Book.Quantity (int) Required, 32], [Property: Book.Title (string), 33] }
+        SELECT b.Id, b.BookId, b.CustomerId, b.Price, b.Quantity, b.RentEndDate, b.RentStartDate, a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.DateCreated, a.Email, a.EmailConfirmed, a.FirstName, a.LastName, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName, b0.Id, b0.CreatedAt, b0.Description, b0.LastModifiedAt, b0.LastModifiedBy, b0.Price, b0.PublisherId, b0.Quantity, b0.Title
+        FROM BookRentals AS b
+        INNER JOIN AspNetUsers AS a ON b.CustomerId == a.Id
+        INNER JOIN Books AS b0 ON b.BookId == b0.Id, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        BookRentals entity;
+        User entity;
+        Book entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            BookRentals instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(BookRentals);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: BookRentals.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Entities.BookRentals").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (BookRentals)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: BookRentals | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Entities.BookRentals")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: BookRentals | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Entities.BookRentals")]: 
+                        {
+                            return 
+                            {
+                                BookRentals instance;
+                                instance = new BookRentals();
+                                instance.<Id>k__BackingField = dataReader.GetGuid(0);
+                                instance.<BookId>k__BackingField = dataReader.GetGuid(1);
+                                instance.<CustomerId>k__BackingField = dataReader.GetString(2);
+                                instance.<Price>k__BackingField = dataReader.GetDouble(3);
+                                instance.<Quantity>k__BackingField = dataReader.GetInt32(4);
+                                instance.<RentEndDate>k__BackingField = dataReader.GetDateTime(5);
+                                instance.<RentStartDate>k__BackingField = dataReader.GetDateTime(6);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: BookRentals | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Entities.BookRentals")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(BookRentals)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        entity = 
+        {
+            MaterializationContext materializationContext2;
+            IEntityType entityType2;
+            User instance2;
+            InternalEntityEntry entry2;
+            bool hasNullKey2;
+            materializationContext2 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance2 = default(User);
+            entry2 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetString(7) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey2);
+            !(hasNullKey2) ? entry2 != default(InternalEntityEntry) ? 
+            {
+                entityType2 = entry2.EntityType;
+                return instance2 = (User)entry2.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot2;
+                shadowSnapshot2 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType2 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User")];
+                instance2 = switch (entityType2)
+                {
+                    case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{4} => namelessParameter{4}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User")]: 
+                        {
+                            return 
+                            {
+                                User instance;
+                                instance = new User();
+                                instance.<Id>k__BackingField = dataReader.GetString(7);
+                                instance.<AccessFailedCount>k__BackingField = dataReader.GetInt32(8);
+                                instance.<ConcurrencyStamp>k__BackingField = dataReader.IsDBNull(9) ? default(string) : dataReader.GetString(9);
+                                instance.<DateCreated>k__BackingField = dataReader.GetDateTime(10);
+                                instance.<Email>k__BackingField = dataReader.IsDBNull(11) ? default(string) : dataReader.GetString(11);
+                                instance.<EmailConfirmed>k__BackingField = dataReader.GetBoolean(12);
+                                instance.<FirstName>k__BackingField = dataReader.GetString(13);
+                                instance.<LastName>k__BackingField = dataReader.GetString(14);
+                                instance.<LockoutEnabled>k__BackingField = dataReader.GetBoolean(15);
+                                instance.<LockoutEnd>k__BackingField = dataReader.IsDBNull(16) ? default(DateTimeOffset?) : (DateTimeOffset?)dataReader.GetFieldValue<DateTimeOffset>(16);
+                                instance.<NormalizedEmail>k__BackingField = dataReader.IsDBNull(17) ? default(string) : dataReader.GetString(17);
+                                instance.<NormalizedUserName>k__BackingField = dataReader.IsDBNull(18) ? default(string) : dataReader.GetString(18);
+                                instance.<PasswordHash>k__BackingField = dataReader.IsDBNull(19) ? default(string) : dataReader.GetString(19);
+                                instance.<PhoneNumber>k__BackingField = dataReader.IsDBNull(20) ? default(string) : dataReader.GetString(20);
+                                instance.<PhoneNumberConfirmed>k__BackingField = dataReader.GetBoolean(21);
+                                instance.<SecurityStamp>k__BackingField = dataReader.IsDBNull(22) ? default(string) : dataReader.GetString(22);
+                                instance.<TwoFactorEnabled>k__BackingField = dataReader.GetBoolean(23);
+                                instance.<UserName>k__BackingField = dataReader.IsDBNull(24) ? default(string) : dataReader.GetString(24);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext2.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{5} => namelessParameter{5}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(User)
+                }
+                ;
+                entry2 = entityType2 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType2, 
+                    entity: instance2, 
+                    snapshot: shadowSnapshot2);
+                return instance2;
+            } : default(void);
+            return instance2;
+        };
+        entity = 
+        {
+            MaterializationContext materializationContext3;
+            IEntityType entityType3;
+            Book instance3;
+            InternalEntityEntry entry3;
+            bool hasNullKey3;
+            materializationContext3 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance3 = default(Book);
+            entry3 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: Book.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("LibraryManagmentSystem.Entities.Book").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetGuid(25) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey3);
+            !(hasNullKey3) ? entry3 != default(InternalEntityEntry) ? 
+            {
+                entityType3 = entry3.EntityType;
+                return instance3 = (Book)entry3.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot3;
+                shadowSnapshot3 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType3 = [LIFTABLE Constant: EntityType: Book | Resolver: namelessParameter{6} => namelessParameter{6}.Dependencies.Model.FindEntityType("LibraryManagmentSystem.Entities.Book")];
+                instance3 = switch (entityType3)
+                {
+                    case [LIFTABLE Constant: EntityType: Book | Resolver: namelessParameter{7} => namelessParameter{7}.Dependencies.Model.FindEntityType("LibraryManagmentSystem.Entities.Book")]: 
+                        {
+                            return 
+                            {
+                                Book instance;
+                                instance = new Book();
+                                instance.<Id>k__BackingField = dataReader.GetGuid(25);
+                                instance.<CreatedAt>k__BackingField = dataReader.GetDateTime(26);
+                                instance.<Description>k__BackingField = dataReader.IsDBNull(27) ? default(string) : dataReader.GetString(27);
+                                instance.<LastModifiedAt>k__BackingField = dataReader.IsDBNull(28) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(28);
+                                instance.<LastModifiedBy>k__BackingField = dataReader.IsDBNull(29) ? default(DateTime?) : (DateTime?)dataReader.GetDateTime(29);
+                                instance.<Price>k__BackingField = dataReader.IsDBNull(30) ? default(decimal?) : (decimal?)dataReader.GetDecimal(30);
+                                instance.<PublisherId>k__BackingField = dataReader.IsDBNull(31) ? default(Guid?) : (Guid?)dataReader.GetGuid(31);
+                                instance.<Quantity>k__BackingField = dataReader.GetInt32(32);
+                                instance.<Title>k__BackingField = dataReader.IsDBNull(33) ? default(string) : dataReader.GetString(33);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext3.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: Book | Resolver: namelessParameter{8} => namelessParameter{8}.Dependencies.Model.FindEntityType("LibraryManagmentSystem.Entities.Book")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(Book)
+                }
+                ;
+                entry3 = entityType3 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType3, 
+                    entity: instance3, 
+                    snapshot: shadowSnapshot3);
+                return instance3;
+            } : default(void);
+            return instance3;
+        };
+        ShaperProcessingExpressionVisitor.IncludeReference<BookRentals, BookRentals, User>(
+            queryContext: queryContext, 
+            entity: entity, 
+            relatedEntity: entity, 
+            navigation: [LIFTABLE Constant: Navigation: BookRentals.Customer (User) ToPrincipal User Inverse: BookRentals | Resolver: namelessParameter{9} => namelessParameter{9}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Entities.BookRentals").FindNavigation("Customer")], 
+            inverseNavigation: [LIFTABLE Constant: Navigation: User.BookRentals (ICollection<BookRentals>) Collection ToDependent BookRentals Inverse: Customer | Resolver: namelessParameter{10} => namelessParameter{10}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User").FindNavigation("BookRentals")], 
+            fixup: (namelessParameter{11}, namelessParameter{12}) => 
+            {
+                namelessParameter{11}.<Customer>k__BackingField = namelessParameter{12};
+                return [LIFTABLE Constant: ClrICollectionAccessor<User, ICollection<BookRentals>, BookRentals> | Resolver: namelessParameter{13} => namelessParameter{13}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User").FindNavigation("BookRentals").GetCollectionAccessor()].Add(
+                    entity: namelessParameter{12}, 
+                    value: namelessParameter{11}, 
+                    forMaterialization: True);
+            }, 
+            trackingQuery: True);
+        ShaperProcessingExpressionVisitor.IncludeReference<BookRentals, BookRentals, Book>(
+            queryContext: queryContext, 
+            entity: entity, 
+            relatedEntity: entity, 
+            navigation: [LIFTABLE Constant: Navigation: BookRentals.Book (Book) ToPrincipal Book Inverse: BookRentals | Resolver: namelessParameter{14} => namelessParameter{14}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Entities.BookRentals").FindNavigation("Book")], 
+            inverseNavigation: [LIFTABLE Constant: Navigation: Book.BookRentals (ICollection<BookRentals>) Collection ToDependent BookRentals Inverse: Book | Resolver: namelessParameter{15} => namelessParameter{15}.Dependencies.Model.FindEntityType("LibraryManagmentSystem.Entities.Book").FindNavigation("BookRentals")], 
+            fixup: (namelessParameter{16}, namelessParameter{17}) => 
+            {
+                namelessParameter{16}.<Book>k__BackingField = namelessParameter{17};
+                return [LIFTABLE Constant: ClrICollectionAccessor<Book, ICollection<BookRentals>, BookRentals> | Resolver: namelessParameter{18} => namelessParameter{18}.Dependencies.Model.FindEntityType("LibraryManagmentSystem.Entities.Book").FindNavigation("BookRentals").GetCollectionAccessor()].Add(
+                    entity: namelessParameter{17}, 
+                    value: namelessParameter{16}, 
+                    forMaterialization: True);
+            }, 
+            trackingQuery: True);
+        return entity;
+    }, 
+    contextType: LibraryManagmentSystem.Data.LibraryContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)' 
+2025-09-17 16:52:04.5993|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2025-09-17 16:52:04.6650|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (68ms). 
+2025-09-17 16:52:04.6650|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-17 16:52:05.4603|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-17 16:52:05.4603|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2025-09-17 16:52:05.4984|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (15ms). 
+2025-09-17 16:52:05.4984|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (34ms). 
+2025-09-17 16:52:05.5275|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[BookId], [b].[CustomerId], [b].[Price], [b].[Quantity], [b].[RentEndDate], [b].[RentStartDate], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [b0].[Id], [b0].[CreatedAt], [b0].[Description], [b0].[LastModifiedAt], [b0].[LastModifiedBy], [b0].[Price], [b0].[PublisherId], [b0].[Quantity], [b0].[Title]
+FROM [BookRentals] AS [b]
+INNER JOIN [AspNetUsers] AS [a] ON [b].[CustomerId] = [a].[Id]
+INNER JOIN [Books] AS [b0] ON [b].[BookId] = [b0].[Id] 
+2025-09-17 16:52:05.8725|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (335ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[Id], [b].[BookId], [b].[CustomerId], [b].[Price], [b].[Quantity], [b].[RentEndDate], [b].[RentStartDate], [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [b0].[Id], [b0].[CreatedAt], [b0].[Description], [b0].[LastModifiedAt], [b0].[LastModifiedBy], [b0].[Price], [b0].[PublisherId], [b0].[Quantity], [b0].[Title]
+FROM [BookRentals] AS [b]
+INNER JOIN [AspNetUsers] AS [a] ON [b].[CustomerId] = [a].[Id]
+INNER JOIN [Books] AS [b0] ON [b].[BookId] = [b0].[Id] 
+2025-09-17 16:52:06.0273|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'BookRentals' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.2022|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'BookRentals.Customer' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.2195|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.3760|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'BookRentals.Book' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.3936|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'BookRentals' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'BookRentals.Book' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'BookRentals' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'BookRentals.Customer' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'BookRentals.Book' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'Book' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'BookRentals.Customer' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'BookRentals' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'BookRentals.Customer' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'BookRentals' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'BookRentals.Customer' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'BookRentals' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'BookRentals.Customer' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4632|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'BookRentals' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4754|10805|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The navigation 'BookRentals.Customer' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4754|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'BookRentals' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-17 16:52:06.4893|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-17 16:52:06.5120|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LibraryDb' on server 'LAPTOP-4LPUPLC4' is being disposed after spending 619ms reading results. 
+2025-09-17 16:52:06.5241|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-17 16:52:06.5457|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4' (22ms). 
+2025-09-17 16:52:17.3615|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 16886.1325ms. 
+2025-09-17 16:52:17.3615|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 16:52:17.3615|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-17 16:52:17.3615|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 16:52:17.3615|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-17 16:52:17.3646|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 16:52:17.3646|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 16:52:17.3646|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.FileContentResult. 
+2025-09-17 16:52:17.3646|2|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.FileContentResultExecutor|Executing FileContentResult, sending file with download name 'BookRentals_20250917135217.xlsx' ... 
+2025-09-17 16:52:17.3844|38|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.FileContentResultExecutor|The file result has not been enabled for processing range requests. To enable it, set the EnableRangeProcessing property on the result to 'true'. 
+2025-09-17 16:52:17.3949|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending HEADERS frame for stream ID 15 with length 231 and flags END_HEADERS. 
+2025-09-17 16:52:17.3949|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 15 with length 6977 and flags NONE. 
+2025-09-17 16:52:17.3949|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-17 16:52:17.3949|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" received WINDOW_UPDATE frame for stream ID 15 with length 4 and flags 0x0. 
+2025-09-17 16:52:17.3949|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.FileContentResult. 
+2025-09-17 16:52:17.3949|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 16:52:17.3949|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-17 16:52:17.4256|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API) in 17706.147ms 
+2025-09-17 16:52:17.4256|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LibraryManagementSystem.API.Controllers.BookRentalController.ExportRentals (LibraryManagementSystem.API)' 
+2025-09-17 16:52:17.4256|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM. 
+2025-09-17 16:52:17.4325|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'LibraryContext' disposed. 
+2025-09-17 16:52:17.4461|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-17 16:52:17.4461|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (3ms). 
+2025-09-17 16:52:17.4461|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/api/BookRental/export-rentals - 200 6977 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 17838.8704ms 
+2025-09-17 16:53:16.7577|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNFLU5E4ECDU" received FIN. 
+2025-09-17 16:53:16.7832|48|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNFLU5E4ECDU" is closed. The last processed stream ID was 15. 
+2025-09-17 16:53:16.7846|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNFLU5E4ECDU" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-17 16:53:16.7846|62|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HNFLU5E4ECDU completed. 
+2025-09-17 16:53:16.7846|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNFLU5E4ECDU" stopped. 

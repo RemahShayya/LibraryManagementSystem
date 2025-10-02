@@ -1,0 +1,1168 @@
+2025-09-01 17:02:46.0500|0|DEBUG|LibraryManagementSystem.API.Program|init main 
+2025-09-01 17:02:46.4797|0|INFO|LibraryManagementSystem.API.Program|✅ Test log: Application started 
+2025-09-01 17:02:48.9745|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-01 17:02:49.1454|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2025-09-01 17:02:49.2198|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-01 17:02:49.2416|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys\key-0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d.xml'. 
+2025-09-01 17:02:49.2936|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys\key-90e9434f-347d-4778-9235-65398a291d04.xml'. 
+2025-09-01 17:02:49.3294|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d}. 
+2025-09-01 17:02:49.3453|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {90e9434f-347d-4778-9235-65398a291d04}. 
+2025-09-01 17:02:49.3635|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} with expiration date 2025-10-28 11:37:33Z as default key. 
+2025-09-01 17:02:49.3721|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-01 17:02:49.3721|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2025-09-01 17:02:49.3721|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-01 17:02:49.3833|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-01 17:02:49.3833|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-01 17:02:49.3833|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} as the default key. 
+2025-09-01 17:02:49.3833|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} was loaded during application startup. 
+2025-09-01 17:02:49.4084|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware|Middleware loaded 
+2025-09-01 17:02:49.4113|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16539 B). 
+2025-09-01 17:02:49.4113|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-09-01 17:02:49.6161|7|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-01 17:02:49.6161|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2025-09-01 17:02:49.6454|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-09-01 17:02:49.9271|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7143 
+2025-09-01 17:02:49.9464|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5223 
+2025-09-01 17:02:49.9464|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly LibraryManagementSystem.API 
+2025-09-01 17:02:49.9464|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-09-01 17:02:49.9464|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-09-01 17:02:49.9464|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-09-01 17:02:49.9637|2|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-01 17:02:49.9637|2|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-01 17:02:50.1114|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2025-09-01 17:02:50.1114|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2025-09-01 17:02:50.1114|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Remah\Desktop\AST\Projects\LibraryManagementSystem\LibraryManagementSystem 
+2025-09-01 17:02:50.1147|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2025-09-01 17:03:06.7071|0|DEBUG|LibraryManagementSystem.API.Program|init main 
+2025-09-01 17:03:07.0596|0|INFO|LibraryManagementSystem.API.Program|✅ Test log: Application started 
+2025-09-01 17:03:07.7164|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-09-01 17:03:07.8152|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2025-09-01 17:03:07.8493|63|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-09-01 17:03:07.8640|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys\key-0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d.xml'. 
+2025-09-01 17:03:07.8731|37|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Remah\AppData\Local\ASP.NET\DataProtection-Keys\key-90e9434f-347d-4778-9235-65398a291d04.xml'. 
+2025-09-01 17:03:07.8832|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d}. 
+2025-09-01 17:03:07.8832|18|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {90e9434f-347d-4778-9235-65398a291d04}. 
+2025-09-01 17:03:07.9031|13|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} with expiration date 2025-10-28 11:37:33Z as default key. 
+2025-09-01 17:03:07.9031|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-01 17:03:07.9031|51|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2025-09-01 17:03:07.9031|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-09-01 17:03:07.9147|4|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-09-01 17:03:07.9147|3|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-09-01 17:03:07.9147|2|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} as the default key. 
+2025-09-01 17:03:07.9147|65|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} was loaded during application startup. 
+2025-09-01 17:03:07.9147|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware|Middleware loaded 
+2025-09-01 17:03:07.9147|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16539 B). 
+2025-09-01 17:03:07.9147|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/blazor-hotreload.js (799 B). 
+2025-09-01 17:03:08.0396|7|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True} 
+2025-09-01 17:03:08.0396|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2025-09-01 17:03:08.0531|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true 
+2025-09-01 17:03:08.1752|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7143 
+2025-09-01 17:03:08.1920|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5223 
+2025-09-01 17:03:08.1931|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly LibraryManagementSystem.API 
+2025-09-01 17:03:08.1931|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-09-01 17:03:08.1931|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-09-01 17:03:08.1931|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-09-01 17:03:08.1931|2|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-01 17:03:08.1931|2|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0. 
+2025-09-01 17:03:08.2784|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2025-09-01 17:03:08.2784|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2025-09-01 17:03:08.2784|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Remah\Desktop\AST\Projects\LibraryManagementSystem\LibraryManagementSystem 
+2025-09-01 17:03:08.2784|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2025-09-01 17:03:12.0276|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNF9C14SA5PH" accepted. 
+2025-09-01 17:03:12.0276|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNF9C14SA5PI" accepted. 
+2025-09-01 17:03:12.0276|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNF9C14SA5PI" started. 
+2025-09-01 17:03:12.0276|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNF9C14SA5PH" started. 
+2025-09-01 17:03:12.0974|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNF9C14SA5PI" received FIN. 
+2025-09-01 17:03:12.1627|3|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HNF9C14SA5PH established using the following protocol: Tls13 
+2025-09-01 17:03:12.1627|3|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HNF9C14SA5PI established using the following protocol: Tls13 
+2025-09-01 17:03:12.1964|48|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PI" is closed. The last processed stream ID was 0. 
+2025-09-01 17:03:12.1964|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNF9C14SA5PI" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-01 17:03:12.1964|62|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HNF9C14SA5PI completed. 
+2025-09-01 17:03:12.1964|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-01 17:03:12.1964|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNF9C14SA5PI" stopped. 
+2025-09-01 17:03:12.1964|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-01 17:03:12.1964|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-01 17:03:12.1964|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-01 17:03:12.1964|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-01 17:03:12.1964|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received HEADERS frame for stream ID 1 with length 509 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:12.2284|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-01 17:03:12.2579|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/scalar/ - - - 
+2025-09-01 17:03:12.4364|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:03:12.4787|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/scalar/' 
+2025-09-01 17:03:12.4787|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/{documentName?}' with route pattern '/scalar/{documentName?}' is valid for the request path '/scalar/' 
+2025-09-01 17:03:12.4787|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /scalar/{documentName?}' 
+2025-09-01 17:03:12.4787|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:03:12.5686|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:03:12.5686|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /scalar/{documentName?}' 
+2025-09-01 17:03:12.6560|2|INFO|Microsoft.AspNetCore.Http.Result.ContentResult|Write content with HTTP Response ContentType of text/html 
+2025-09-01 17:03:12.6560|1|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2025-09-01 17:03:12.6560|1|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2025-09-01 17:03:12.6560|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending HEADERS frame for stream ID 1 with length 52 and flags END_HEADERS. 
+2025-09-01 17:03:12.6661|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 1 with length 882 and flags NONE. 
+2025-09-01 17:03:12.6661|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /scalar/{documentName?}' 
+2025-09-01 17:03:12.6661|2|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2025-09-01 17:03:12.6661|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 1 with length 357 and flags NONE. 
+2025-09-01 17:03:12.6661|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 1 with length 80 and flags NONE. 
+2025-09-01 17:03:12.6661|2|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2025-09-01 17:03:12.6661|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2025-09-01 17:03:12.6766|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/scalar/ - 200 - text/html 428.6271ms 
+2025-09-01 17:03:12.6766|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received HEADERS frame for stream ID 3 with length 107 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:12.6766|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received HEADERS frame for stream ID 5 with length 89 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:12.6766|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received HEADERS frame for stream ID 7 with length 36 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:12.6766|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/scalar/scalar.aspnetcore.js - - - 
+2025-09-01 17:03:12.6766|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - - - 
+2025-09-01 17:03:12.6766|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:03:12.6766|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/scalar/scalar.js - - - 
+2025-09-01 17:03:12.6766|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:03:12.6927|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|2 candidate(s) found for the request path '/scalar/scalar.aspnetcore.js' 
+2025-09-01 17:03:12.6927|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' with route pattern '/scalar/scalar.aspnetcore.js' is valid for the request path '/scalar/scalar.aspnetcore.js' 
+2025-09-01 17:03:12.6927|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/{documentName?}' with route pattern '/scalar/{documentName?}' is valid for the request path '/scalar/scalar.aspnetcore.js' 
+2025-09-01 17:03:12.6927|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|2 candidate(s) found for the request path '/scalar/scalar.js' 
+2025-09-01 17:03:12.6927|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' 
+2025-09-01 17:03:12.6927|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/scalar.js' with route pattern '/scalar/scalar.js' is valid for the request path '/scalar/scalar.js' 
+2025-09-01 17:03:12.6927|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /scalar/{documentName?}' with route pattern '/scalar/{documentName?}' is valid for the request path '/scalar/scalar.js' 
+2025-09-01 17:03:12.6927|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /scalar/scalar.js' 
+2025-09-01 17:03:12.6927|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:03:12.6927|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:03:12.6927|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:03:12.6927|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:03:12.6927|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' 
+2025-09-01 17:03:12.6927|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /scalar/scalar.js' 
+2025-09-01 17:03:12.7186|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS. 
+2025-09-01 17:03:12.7186|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2025-09-01 17:03:12.7186|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 3 with length 155 and flags NONE. 
+2025-09-01 17:03:12.7186|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js 
+2025-09-01 17:03:12.7186|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - 200 16539 application/javascript;+charset=utf-8 31.5129ms 
+2025-09-01 17:03:12.7186|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-09-01 17:03:12.7241|1|INFO|Microsoft.AspNetCore.Http.Result.StatusCodeResult|Setting HTTP status code 304. 
+2025-09-01 17:03:12.7241|1|INFO|Microsoft.AspNetCore.Http.Result.StatusCodeResult|Setting HTTP status code 304. 
+2025-09-01 17:03:12.7241|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /scalar/scalar.js' 
+2025-09-01 17:03:12.7241|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js' 
+2025-09-01 17:03:12.7241|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/scalar/scalar.aspnetcore.js - 304 - - 33.4450ms 
+2025-09-01 17:03:12.7241|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/scalar/scalar.js - 304 - - 32.8936ms 
+2025-09-01 17:03:12.7241|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending HEADERS frame for stream ID 7 with length 30 and flags END_STREAM, END_HEADERS. 
+2025-09-01 17:03:12.7241|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending HEADERS frame for stream ID 5 with length 5 and flags END_STREAM, END_HEADERS. 
+2025-09-01 17:03:12.7241|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received HEADERS frame for stream ID 9 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:12.7241|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/_vs/browserLink - - - 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending HEADERS frame for stream ID 9 with length 119 and flags END_HEADERS. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 9986 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 10240 and flags NONE. 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 1806 and flags NONE. 
+2025-09-01 17:03:12.8227|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 104.0285ms 
+2025-09-01 17:03:12.8227|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2025-09-01 17:03:13.2602|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received HEADERS frame for stream ID 11 with length 48 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:13.2602|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/openapi/v1.json - - - 
+2025-09-01 17:03:13.2602|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:03:13.2602|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/openapi/v1.json' 
+2025-09-01 17:03:13.2602|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /openapi/{documentName}.json' with route pattern '/openapi/{documentName}.json' is valid for the request path '/openapi/v1.json' 
+2025-09-01 17:03:13.2602|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-01 17:03:13.2602|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:03:13.2602|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:03:13.2602|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-01 17:03:13.5785|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending HEADERS frame for stream ID 11 with length 65 and flags END_HEADERS. 
+2025-09-01 17:03:13.5785|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-01 17:03:13.5785|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 11 with length 16384 and flags NONE. 
+2025-09-01 17:03:13.5785|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 11 with length 6216 and flags NONE. 
+2025-09-01 17:03:13.5785|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-01 17:03:13.5843|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/openapi/v1.json - 200 - application/json;charset=utf-8 323.3846ms 
+2025-09-01 17:03:13.5843|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2025-09-01 17:03:13.5843|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received HEADERS frame for stream ID 13 with length 35 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:13.5843|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/openapi/v1.json - - - 
+2025-09-01 17:03:13.5843|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:03:13.5843|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/openapi/v1.json' 
+2025-09-01 17:03:13.5843|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'HTTP: GET /openapi/{documentName}.json' with route pattern '/openapi/{documentName}.json' is valid for the request path '/openapi/v1.json' 
+2025-09-01 17:03:13.5843|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-01 17:03:13.5843|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:03:13.5843|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:03:13.5843|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-01 17:03:13.6164|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending HEADERS frame for stream ID 13 with length 4 and flags END_HEADERS. 
+2025-09-01 17:03:13.6164|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-01 17:03:13.6164|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 13 with length 16384 and flags NONE. 
+2025-09-01 17:03:13.6164|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 13 with length 6216 and flags NONE. 
+2025-09-01 17:03:13.6178|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'HTTP: GET /openapi/{documentName}.json' 
+2025-09-01 17:03:13.6178|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/openapi/v1.json - 200 - application/json;charset=utf-8 27.7782ms 
+2025-09-01 17:03:13.6178|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM. 
+2025-09-01 17:03:15.8100|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received HEADERS frame for stream ID 15 with length 88 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:15.8100|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7143/favicon.ico - - - 
+2025-09-01 17:03:15.8100|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:03:15.8100|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/favicon.ico' 
+2025-09-01 17:03:15.8100|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2025-09-01 17:03:15.8100|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:03:15.8100|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7143/favicon.ico - 404 0 - 3.5490ms 
+2025-09-01 17:03:15.8100|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending HEADERS frame for stream ID 15 with length 37 and flags END_STREAM, END_HEADERS. 
+2025-09-01 17:03:15.8171|16|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7143/favicon.ico, Response status code: 404 
+2025-09-01 17:03:40.3336|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received HEADERS frame for stream ID 17 with length 77 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:40.3354|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-09-01 17:03:40.3354|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-09-01 17:03:40.3796|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/rr - text/plain;charset=UTF-8 0 
+2025-09-01 17:03:40.3796|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:03:40.3796|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Account/forgot-email-or password/rr' 
+2025-09-01 17:03:40.3796|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' with route pattern 'api/Account/forgot-email-or password/{email}' is valid for the request path '/api/Account/forgot-email-or password/rr' 
+2025-09-01 17:03:40.3796|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:40.3796|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:03:40.3796|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:03:40.3815|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:40.5512|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotUsernameOrPassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotUsernameOrPassword(System.String) on controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API). 
+2025-09-01 17:03:40.5512|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2025-09-01 17:03:40.5512|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2025-09-01 17:03:40.5512|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-01 17:03:40.5512|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2025-09-01 17:03:40.5512|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-01 17:03:40.5512|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:03:41.0214|10401|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-09-01 17:03:41.1733|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:03:41.1877|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'email' of type 'System.String' ... 
+2025-09-01 17:03:41.1877|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ... 
+2025-09-01 17:03:41.1942|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:41.1942|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:41.1942|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'email' of type 'System.String' ... 
+2025-09-01 17:03:41.2111|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:41.2111|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:41.2111|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:41.2111|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:41.2111|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:41.2404|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) - Validation state: Valid 
+2025-09-01 17:03:41.2404|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) with arguments (rr) 
+2025-09-01 17:03:42.8908|10601|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'BookId'} was not created on entity type 'BookCategory' as the properties are already covered by the index {'BookId', 'CategoryId'}. 
+2025-09-01 17:03:42.8908|10601|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}. 
+2025-09-01 17:03:42.8908|10601|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}. 
+2025-09-01 17:03:43.4361|30000|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'Price' on entity type 'Book'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-09-01 17:03:43.7244|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 9.0.8 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer  
+2025-09-01 17:03:44.0209|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<User>()
+    .SingleOrDefault(u => u.NormalizedEmail == __normalizedEmail_0)' 
+2025-09-01 17:03:45.0697|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (string) Required PK AfterSave:Throw, 0], [Property: User.AccessFailedCount (int) Required, 1], [Property: User.ConcurrencyStamp (string) Concurrency, 2], [Property: User.DateCreated (DateTime) Required, 3], [Property: User.Email (string) MaxLength(256), 4], [Property: User.EmailConfirmed (bool) Required, 5], [Property: User.FirstName (string) Required, 6], [Property: User.LastName (string) Required, 7], [Property: User.LockoutEnabled (bool) Required, 8], [Property: User.LockoutEnd (DateTimeOffset?), 9], [Property: User.NormalizedEmail (string) Index MaxLength(256), 10], [Property: User.NormalizedUserName (string) Index MaxLength(256), 11], [Property: User.PasswordHash (string), 12], [Property: User.PhoneNumber (string), 13], [Property: User.PhoneNumberConfirmed (bool) Required, 14], [Property: User.SecurityStamp (string), 15], [Property: User.TwoFactorEnabled (bool) Required, 16], [Property: User.UserName (string) MaxLength(256), 17] }
+            SELECT TOP(2) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.DateCreated, a.Email, a.EmailConfirmed, a.FirstName, a.LastName, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedEmail == @__normalizedEmail_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (string) Required PK AfterSave:Throw, 0], [Property: User.AccessFailedCount (int) Required, 1], [Property: User.ConcurrencyStamp (string) Concurrency, 2], [Property: User.DateCreated (DateTime) Required, 3], [Property: User.Email (string) MaxLength(256), 4], [Property: User.EmailConfirmed (bool) Required, 5], [Property: User.FirstName (string) Required, 6], [Property: User.LastName (string) Required, 7], [Property: User.LockoutEnabled (bool) Required, 8], [Property: User.LockoutEnd (DateTimeOffset?), 9], [Property: User.NormalizedEmail (string) Index MaxLength(256), 10], [Property: User.NormalizedUserName (string) Index MaxLength(256), 11], [Property: User.PasswordHash (string), 12], [Property: User.PhoneNumber (string), 13], [Property: User.PhoneNumberConfirmed (bool) Required, 14], [Property: User.SecurityStamp (string), 15], [Property: User.TwoFactorEnabled (bool) Required, 16], [Property: User.UserName (string) MaxLength(256), 17] }
+            SELECT TOP(2) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.DateCreated, a.Email, a.EmailConfirmed, a.FirstName, a.LastName, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedEmail == @__normalizedEmail_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetString(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<Id>k__BackingField = dataReader.GetString(0);
+                                    instance.<AccessFailedCount>k__BackingField = dataReader.GetInt32(1);
+                                    instance.<ConcurrencyStamp>k__BackingField = dataReader.IsDBNull(2) ? default(string) : dataReader.GetString(2);
+                                    instance.<DateCreated>k__BackingField = dataReader.GetDateTime(3);
+                                    instance.<Email>k__BackingField = dataReader.IsDBNull(4) ? default(string) : dataReader.GetString(4);
+                                    instance.<EmailConfirmed>k__BackingField = dataReader.GetBoolean(5);
+                                    instance.<FirstName>k__BackingField = dataReader.GetString(6);
+                                    instance.<LastName>k__BackingField = dataReader.GetString(7);
+                                    instance.<LockoutEnabled>k__BackingField = dataReader.GetBoolean(8);
+                                    instance.<LockoutEnd>k__BackingField = dataReader.IsDBNull(9) ? default(DateTimeOffset?) : (DateTimeOffset?)dataReader.GetFieldValue<DateTimeOffset>(9);
+                                    instance.<NormalizedEmail>k__BackingField = dataReader.IsDBNull(10) ? default(string) : dataReader.GetString(10);
+                                    instance.<NormalizedUserName>k__BackingField = dataReader.IsDBNull(11) ? default(string) : dataReader.GetString(11);
+                                    instance.<PasswordHash>k__BackingField = dataReader.IsDBNull(12) ? default(string) : dataReader.GetString(12);
+                                    instance.<PhoneNumber>k__BackingField = dataReader.IsDBNull(13) ? default(string) : dataReader.GetString(13);
+                                    instance.<PhoneNumberConfirmed>k__BackingField = dataReader.GetBoolean(14);
+                                    instance.<SecurityStamp>k__BackingField = dataReader.IsDBNull(15) ? default(string) : dataReader.GetString(15);
+                                    instance.<TwoFactorEnabled>k__BackingField = dataReader.GetBoolean(16);
+                                    instance.<UserName>k__BackingField = dataReader.IsDBNull(17) ? default(string) : dataReader.GetString(17);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: LibraryManagmentSystem.Data.LibraryContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)' 
+2025-09-01 17:03:45.2277|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2025-09-01 17:03:45.2945|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (64ms). 
+2025-09-01 17:03:45.3049|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:46.0691|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:46.0691|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2025-09-01 17:03:46.0927|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (13ms). 
+2025-09-01 17:03:46.1164|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (39ms). 
+2025-09-01 17:03:46.1460|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:03:46.4430|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (294ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:03:46.4810|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:46.5100|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LibraryDb' on server 'LAPTOP-4LPUPLC4' is being disposed after spending 46ms reading results. 
+2025-09-01 17:03:46.5100|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:46.5393|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4' (19ms). 
+2025-09-01 17:03:46.5697|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 5305.019ms. 
+2025-09-01 17:03:46.5718|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:46.5718|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:46.5718|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:46.5718|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:46.5718|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:46.5718|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:46.5718|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:03:46.5888|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-09-01 17:03:46.5888|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2025-09-01 17:03:46.5888|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-09-01 17:03:46.5888|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-09-01 17:03:46.5990|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2025-09-01 17:03:46.5990|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing UnauthorizedObjectResult, writing value of type 'System.String'. 
+2025-09-01 17:03:46.5990|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:03:46.5990|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:46.5990|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:46.5990|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending HEADERS frame for stream ID 17 with length 64 and flags END_HEADERS. 
+2025-09-01 17:03:46.5990|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 17 with length 45 and flags NONE. 
+2025-09-01 17:03:46.6205|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-01 17:03:46.6205|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" received WINDOW_UPDATE frame for stream ID 17 with length 4 and flags 0x0. 
+2025-09-01 17:03:46.6205|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) in 6049.6317ms 
+2025-09-01 17:03:46.6205|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:46.6205|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" sending DATA frame for stream ID 17 with length 0 and flags END_STREAM. 
+2025-09-01 17:03:46.6342|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'LibraryContext' disposed. 
+2025-09-01 17:03:46.6342|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:46.6342|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (1ms). 
+2025-09-01 17:03:46.6464|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/rr - 401 - text/plain;+charset=utf-8 6310.5275ms 
+2025-09-01 17:03:56.0654|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNF9C14SA5PH" received FIN. 
+2025-09-01 17:03:56.0654|48|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PH" is closed. The last processed stream ID was 17. 
+2025-09-01 17:03:56.0654|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNF9C14SA5PH" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-09-01 17:03:56.0689|62|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HNF9C14SA5PH completed. 
+2025-09-01 17:03:56.0689|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNF9C14SA5PH" stopped. 
+2025-09-01 17:03:56.3728|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNF9C14SA5PJ" accepted. 
+2025-09-01 17:03:56.3728|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNF9C14SA5PJ" started. 
+2025-09-01 17:03:56.3858|3|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HNF9C14SA5PJ established using the following protocol: Tls13 
+2025-09-01 17:03:56.3858|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-01 17:03:56.3858|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-01 17:03:56.3858|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-09-01 17:03:56.3858|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-01 17:03:56.3858|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-01 17:03:56.3858|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received HEADERS frame for stream ID 1 with length 472 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:56.3858|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-09-01 17:03:56.3858|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/rimahshaya@gmail.com - text/plain;charset=UTF-8 0 
+2025-09-01 17:03:56.3858|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:03:56.3858|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Account/forgot-email-or password/rimahshaya@gmail.com' 
+2025-09-01 17:03:56.3858|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' with route pattern 'api/Account/forgot-email-or password/{email}' is valid for the request path '/api/Account/forgot-email-or password/rimahshaya@gmail.com' 
+2025-09-01 17:03:56.3858|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:56.3858|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:03:56.3858|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:03:56.3858|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:56.3858|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotUsernameOrPassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotUsernameOrPassword(System.String) on controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API). 
+2025-09-01 17:03:56.3858|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2025-09-01 17:03:56.3858|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2025-09-01 17:03:56.3858|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-01 17:03:56.3858|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2025-09-01 17:03:56.3858|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-01 17:03:56.3858|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:03:56.3987|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:03:56.3987|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'email' of type 'System.String' ... 
+2025-09-01 17:03:56.4198|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ... 
+2025-09-01 17:03:56.4198|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:56.4198|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:56.4198|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'email' of type 'System.String' ... 
+2025-09-01 17:03:56.4198|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:56.4198|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:56.4198|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:56.4198|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:56.4198|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:56.4198|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) - Validation state: Valid 
+2025-09-01 17:03:56.4198|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) with arguments (rimahshaya@gmail.com) 
+2025-09-01 17:03:56.5991|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 9.0.8 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer  
+2025-09-01 17:03:56.6078|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2025-09-01 17:03:56.6078|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2025-09-01 17:03:56.6078|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:56.6724|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:56.6724|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2025-09-01 17:03:56.6724|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:03:56.6724|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:03:56.6724|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:03:56.6724|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:03:56.6724|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:56.6724|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LibraryDb' on server 'LAPTOP-4LPUPLC4' is being disposed after spending 0ms reading results. 
+2025-09-01 17:03:56.6835|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:56.6835|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4' (1ms). 
+2025-09-01 17:03:56.6835|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 263.2801ms. 
+2025-09-01 17:03:56.6835|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:56.6835|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:56.6835|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:56.6835|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:56.6835|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:56.6835|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:56.6835|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:03:56.6835|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-09-01 17:03:56.6835|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2025-09-01 17:03:56.6835|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-09-01 17:03:56.6835|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-09-01 17:03:56.6835|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2025-09-01 17:03:56.6835|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing UnauthorizedObjectResult, writing value of type 'System.String'. 
+2025-09-01 17:03:56.6835|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:03:56.6835|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:56.6835|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:56.6835|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending HEADERS frame for stream ID 1 with length 72 and flags END_HEADERS. 
+2025-09-01 17:03:56.6835|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 1 with length 45 and flags NONE. 
+2025-09-01 17:03:56.6835|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) in 290.7845ms 
+2025-09-01 17:03:56.6835|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:56.6835|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2025-09-01 17:03:56.6835|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'LibraryContext' disposed. 
+2025-09-01 17:03:56.6835|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:56.6835|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2025-09-01 17:03:56.6835|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/rimahshaya@gmail.com - 401 - text/plain;+charset=utf-8 300.0163ms 
+2025-09-01 17:03:58.2027|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received HEADERS frame for stream ID 3 with length 69 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:58.2027|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/rimahshaya@gmail.com - text/plain;charset=UTF-8 0 
+2025-09-01 17:03:58.2027|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:03:58.2027|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Account/forgot-email-or password/rimahshaya@gmail.com' 
+2025-09-01 17:03:58.2027|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' with route pattern 'api/Account/forgot-email-or password/{email}' is valid for the request path '/api/Account/forgot-email-or password/rimahshaya@gmail.com' 
+2025-09-01 17:03:58.2027|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:58.2027|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:03:58.2027|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:03:58.2027|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:58.2027|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotUsernameOrPassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotUsernameOrPassword(System.String) on controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API). 
+2025-09-01 17:03:58.2027|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2025-09-01 17:03:58.2027|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2025-09-01 17:03:58.2027|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-01 17:03:58.2027|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2025-09-01 17:03:58.2027|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-01 17:03:58.2027|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:03:58.2697|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:03:58.2697|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'email' of type 'System.String' ... 
+2025-09-01 17:03:58.2697|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ... 
+2025-09-01 17:03:58.2697|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:58.2697|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:58.2697|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'email' of type 'System.String' ... 
+2025-09-01 17:03:58.2697|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:58.2697|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:58.2697|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:58.2697|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:58.2697|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:58.2697|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) - Validation state: Valid 
+2025-09-01 17:03:58.2697|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) with arguments (rimahshaya@gmail.com) 
+2025-09-01 17:03:58.3076|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 9.0.8 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer  
+2025-09-01 17:03:58.3076|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2025-09-01 17:03:58.3076|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2025-09-01 17:03:58.3076|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:58.3716|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:58.3716|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2025-09-01 17:03:58.3716|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:03:58.3716|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:03:58.3716|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:03:58.3716|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:03:58.3716|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:58.3716|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LibraryDb' on server 'LAPTOP-4LPUPLC4' is being disposed after spending 0ms reading results. 
+2025-09-01 17:03:58.3716|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:58.3716|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4' (1ms). 
+2025-09-01 17:03:58.3716|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 104.7785ms. 
+2025-09-01 17:03:58.3716|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:58.3716|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:58.3716|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:58.3716|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:58.3716|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:58.3716|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:58.3716|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:03:58.3716|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-09-01 17:03:58.3716|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2025-09-01 17:03:58.3716|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-09-01 17:03:58.3716|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-09-01 17:03:58.3716|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2025-09-01 17:03:58.3716|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing UnauthorizedObjectResult, writing value of type 'System.String'. 
+2025-09-01 17:03:58.3716|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:03:58.3716|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:58.3716|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:58.3716|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending HEADERS frame for stream ID 3 with length 34 and flags END_HEADERS. 
+2025-09-01 17:03:58.3716|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) in 171.2582ms 
+2025-09-01 17:03:58.3716|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 3 with length 45 and flags NONE. 
+2025-09-01 17:03:58.3716|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:58.3716|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'LibraryContext' disposed. 
+2025-09-01 17:03:58.3716|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-09-01 17:03:58.3716|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:58.3716|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2025-09-01 17:03:58.3716|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/rimahshaya@gmail.com - 401 - text/plain;+charset=utf-8 173.7978ms 
+2025-09-01 17:03:58.9998|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received HEADERS frame for stream ID 5 with length 69 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:03:58.9998|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/rimahshaya@gmail.com - text/plain;charset=UTF-8 0 
+2025-09-01 17:03:58.9998|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:03:58.9998|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Account/forgot-email-or password/rimahshaya@gmail.com' 
+2025-09-01 17:03:58.9998|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' with route pattern 'api/Account/forgot-email-or password/{email}' is valid for the request path '/api/Account/forgot-email-or password/rimahshaya@gmail.com' 
+2025-09-01 17:03:58.9998|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:58.9998|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:03:58.9998|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:03:58.9998|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:58.9998|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotUsernameOrPassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotUsernameOrPassword(System.String) on controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API). 
+2025-09-01 17:03:58.9998|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2025-09-01 17:03:58.9998|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2025-09-01 17:03:58.9998|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-01 17:03:58.9998|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2025-09-01 17:03:58.9998|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-01 17:03:58.9998|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:03:58.9998|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:03:58.9998|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'email' of type 'System.String' ... 
+2025-09-01 17:03:58.9998|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ... 
+2025-09-01 17:03:58.9998|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:58.9998|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:58.9998|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'email' of type 'System.String' ... 
+2025-09-01 17:03:58.9998|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'email' of type 'System.String'. 
+2025-09-01 17:03:58.9998|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:58.9998|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:58.9998|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:58.9998|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:58.9998|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) - Validation state: Valid 
+2025-09-01 17:03:58.9998|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) with arguments (rimahshaya@gmail.com) 
+2025-09-01 17:03:58.9998|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 9.0.8 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer  
+2025-09-01 17:03:59.0053|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2025-09-01 17:03:59.0053|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2025-09-01 17:03:59.0053|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:59.0325|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:59.0655|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2025-09-01 17:03:59.0655|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:03:59.0655|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:03:59.0655|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:03:59.0655|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:03:59.0655|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:59.0655|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LibraryDb' on server 'LAPTOP-4LPUPLC4' is being disposed after spending 0ms reading results. 
+2025-09-01 17:03:59.0655|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:59.0689|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4' (0ms). 
+2025-09-01 17:03:59.0689|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 66.5052ms. 
+2025-09-01 17:03:59.0689|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:59.0689|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:03:59.0689|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:59.0689|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:03:59.0689|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:59.0689|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:59.0689|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:03:59.0689|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-09-01 17:03:59.0689|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2025-09-01 17:03:59.0689|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-09-01 17:03:59.0689|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-09-01 17:03:59.0689|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2025-09-01 17:03:59.0689|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing UnauthorizedObjectResult, writing value of type 'System.String'. 
+2025-09-01 17:03:59.0689|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:03:59.0689|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:59.0689|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:03:59.0689|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending HEADERS frame for stream ID 5 with length 34 and flags END_HEADERS. 
+2025-09-01 17:03:59.0689|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) in 69.0648ms 
+2025-09-01 17:03:59.0689|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 5 with length 45 and flags NONE. 
+2025-09-01 17:03:59.0689|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:03:59.0689|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'LibraryContext' disposed. 
+2025-09-01 17:03:59.0689|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-09-01 17:03:59.0689|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:03:59.0689|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2025-09-01 17:03:59.0689|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/rimahshaya@gmail.com - 401 - text/plain;+charset=utf-8 70.8484ms 
+2025-09-01 17:05:39.0280|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received HEADERS frame for stream ID 7 with length 68 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:05:39.0651|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/remahahha@gmail.com - text/plain;charset=UTF-8 0 
+2025-09-01 17:05:39.0651|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:05:39.0651|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-09-01 17:05:39.0651|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-09-01 17:05:39.0651|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Account/forgot-email-or password/remahahha@gmail.com' 
+2025-09-01 17:05:39.0651|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' with route pattern 'api/Account/forgot-email-or password/{email}' is valid for the request path '/api/Account/forgot-email-or password/remahahha@gmail.com' 
+2025-09-01 17:05:39.0651|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:05:39.0756|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:05:39.1132|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:05:39.1132|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:05:39.1132|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotUsernameOrPassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotUsernameOrPassword(System.String) on controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API). 
+2025-09-01 17:05:39.1132|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2025-09-01 17:05:39.1132|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2025-09-01 17:05:39.1132|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-01 17:05:39.1132|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2025-09-01 17:05:39.1132|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-01 17:05:39.1132|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:05:39.1153|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:05:39.1153|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'email' of type 'System.String' ... 
+2025-09-01 17:05:39.1153|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ... 
+2025-09-01 17:05:39.1153|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:05:39.1153|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:05:39.1153|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'email' of type 'System.String' ... 
+2025-09-01 17:05:39.1153|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'email' of type 'System.String'. 
+2025-09-01 17:05:39.1153|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:05:39.1153|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:05:39.1153|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:05:39.1153|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:05:39.1153|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) - Validation state: Valid 
+2025-09-01 17:05:39.1153|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) with arguments (remahahha@gmail.com) 
+2025-09-01 17:05:39.1153|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 9.0.8 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer  
+2025-09-01 17:05:39.1153|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2025-09-01 17:05:39.1153|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2025-09-01 17:05:39.1153|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:05:39.1570|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:05:39.1570|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2025-09-01 17:05:39.1570|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:05:39.1570|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:05:39.1570|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:05:39.1671|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:05:39.3126|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-01 17:05:39.4411|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:05:39.4411|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LibraryDb' on server 'LAPTOP-4LPUPLC4' is being disposed after spending 274ms reading results. 
+2025-09-01 17:05:39.4411|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:05:39.4411|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4' (1ms). 
+2025-09-01 17:05:39.4411|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 326.9032ms. 
+2025-09-01 17:05:39.4411|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:05:39.4411|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:05:39.4411|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:05:39.4411|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:05:39.4411|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:05:39.4411|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:05:39.4411|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:05:39.4437|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-09-01 17:05:39.4437|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2025-09-01 17:05:39.4437|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-09-01 17:05:39.4437|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-09-01 17:05:39.4437|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2025-09-01 17:05:39.4437|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing UnauthorizedObjectResult, writing value of type 'System.String'. 
+2025-09-01 17:05:39.4437|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:05:39.4437|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:05:39.4437|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:05:39.4437|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) in 330.3295ms 
+2025-09-01 17:05:39.4437|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending HEADERS frame for stream ID 7 with length 34 and flags END_HEADERS. 
+2025-09-01 17:05:39.4437|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:05:39.4437|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 7 with length 32 and flags NONE. 
+2025-09-01 17:05:39.4437|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'LibraryContext' disposed. 
+2025-09-01 17:05:39.4437|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:05:39.4437|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2025-09-01 17:05:39.4437|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/remahahha@gmail.com - 401 - text/plain;+charset=utf-8 380.5831ms 
+2025-09-01 17:05:39.4437|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2025-09-01 17:05:39.4862|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-01 17:05:44.1282|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received HEADERS frame for stream ID 9 with length 68 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-09-01 17:05:44.1282|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/remahahha@gmail.com - text/plain;charset=UTF-8 0 
+2025-09-01 17:05:44.1301|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:05:44.1301|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Account/forgot-email-or password/remahahha@gmail.com' 
+2025-09-01 17:05:44.1301|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' with route pattern 'api/Account/forgot-email-or password/{email}' is valid for the request path '/api/Account/forgot-email-or password/remahahha@gmail.com' 
+2025-09-01 17:05:44.1301|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:05:44.1301|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:05:44.1301|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:05:44.1301|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:05:44.1301|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ForgotUsernameOrPassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotUsernameOrPassword(System.String) on controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API). 
+2025-09-01 17:05:44.1301|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2025-09-01 17:05:44.1301|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2025-09-01 17:05:44.1301|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-01 17:05:44.1301|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2025-09-01 17:05:44.1301|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-01 17:05:44.1301|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:05:44.1301|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:05:44.1301|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'email' of type 'System.String' ... 
+2025-09-01 17:05:44.1301|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'email' of type 'System.String' using the name 'email' in request data ... 
+2025-09-01 17:05:44.1301|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:05:44.1301|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'email' of type 'System.String'. 
+2025-09-01 17:05:44.1301|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'email' of type 'System.String' ... 
+2025-09-01 17:05:44.1301|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'email' of type 'System.String'. 
+2025-09-01 17:05:44.1301|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:05:44.1301|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:05:44.1301|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:05:44.1301|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:05:44.1301|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) - Validation state: Valid 
+2025-09-01 17:05:44.1301|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) with arguments (remahahha@gmail.com) 
+2025-09-01 17:05:44.1301|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 9.0.8 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer  
+2025-09-01 17:05:44.1301|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2025-09-01 17:05:44.1301|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2025-09-01 17:05:44.1301|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:05:44.1865|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:05:44.1865|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2025-09-01 17:05:44.1865|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:05:44.1865|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:05:44.1865|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:05:44.1865|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0 
+2025-09-01 17:05:44.1865|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-01 17:05:44.1865|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:05:44.1865|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LibraryDb' on server 'LAPTOP-4LPUPLC4' is being disposed after spending 2ms reading results. 
+2025-09-01 17:05:44.1865|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:05:44.1865|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4' (0ms). 
+2025-09-01 17:05:44.1865|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 60.5377ms. 
+2025-09-01 17:05:44.1865|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:05:44.1865|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:05:44.1865|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:05:44.1865|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:05:44.1865|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:05:44.1865|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:05:44.1865|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:05:44.1865|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-09-01 17:05:44.1865|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2025-09-01 17:05:44.1865|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-09-01 17:05:44.1865|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-09-01 17:05:44.1865|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2025-09-01 17:05:44.1865|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing UnauthorizedObjectResult, writing value of type 'System.String'. 
+2025-09-01 17:05:44.1865|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:05:44.1865|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:05:44.1865|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:05:44.1865|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API) in 62.4426ms 
+2025-09-01 17:05:44.1865|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending HEADERS frame for stream ID 9 with length 34 and flags END_HEADERS. 
+2025-09-01 17:05:44.1865|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LibraryManagementSystem.API.Controllers.AccountController.ForgotUsernameOrPassword (LibraryManagementSystem.API)' 
+2025-09-01 17:05:44.1938|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 9 with length 32 and flags NONE. 
+2025-09-01 17:05:44.1938|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2025-09-01 17:05:44.1938|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'LibraryContext' disposed. 
+2025-09-01 17:05:44.1938|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:05:44.1938|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2025-09-01 17:05:44.1938|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7143/api/Account/forgot-email-or password/remahahha@gmail.com - 401 - text/plain;+charset=utf-8 64.2450ms 
+2025-09-01 17:06:55.4609|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received HEADERS frame for stream ID 11 with length 57 and flags END_HEADERS, PRIORITY. 
+2025-09-01 17:06:55.4609|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-09-01 17:06:55.4609|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-09-01 17:06:55.4609|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7143/api/Account/registered - application/json 114 
+2025-09-01 17:06:55.4609|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:06:55.4609|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Account/registered' 
+2025-09-01 17:06:55.4609|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API)' with route pattern 'api/Account/registered' is valid for the request path '/api/Account/registered' 
+2025-09-01 17:06:55.4609|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API)' 
+2025-09-01 17:06:55.4609|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:06:55.4609|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:06:55.4609|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API)' 
+2025-09-01 17:06:55.4609|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received DATA frame for stream ID 11 with length 114 and flags END_STREAM. 
+2025-09-01 17:06:55.5028|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(LibraryManagementSystem.API.Controllers.CreatedRegisterRequest) on controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API). 
+2025-09-01 17:06:55.5028|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2025-09-01 17:06:55.5028|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2025-09-01 17:06:55.5028|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-01 17:06:55.5028|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2025-09-01 17:06:55.5028|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-01 17:06:55.5028|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:06:55.5028|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:06:55.5028|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest' ... 
+2025-09-01 17:06:55.5159|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest' using the name '' in request data ... 
+2025-09-01 17:06:55.5159|1|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-09-01 17:06:55.5421|25|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HNF9C14SA5PJ", Request id "0HNF9C14SA5PJ:0000000B": started reading request body. 
+2025-09-01 17:06:55.5421|26|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HNF9C14SA5PJ", Request id "0HNF9C14SA5PJ:0000000B": done reading request body. 
+2025-09-01 17:06:55.5879|2|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest' 
+2025-09-01 17:06:55.5879|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest'. 
+2025-09-01 17:06:55.5879|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest'. 
+2025-09-01 17:06:55.5879|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest' ... 
+2025-09-01 17:06:55.5879|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest'. 
+2025-09-01 17:06:55.5879|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:06:55.5879|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:06:55.5879|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:06:55.5879|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:06:55.5879|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API) - Validation state: Valid 
+2025-09-01 17:06:55.5879|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API) with arguments (LibraryManagementSystem.API.Controllers.CreatedRegisterRequest) 
+2025-09-01 17:06:55.6071|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 9.0.8 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer  
+2025-09-01 17:06:55.6252|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<User>()
+    .Any(x => x.Email.ToLower() == __ToLower_0)' 
+2025-09-01 17:06:55.7147|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<bool>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM AspNetUsers AS a
+                WHERE LOWER(a.Email) == @__ToLower_0)) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM AspNetUsers AS a
+                WHERE LOWER(a.Email) == @__ToLower_0), 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            bool? value1;
+            value1 = dataReader.IsDBNull(0) ? default(bool?) : (bool?)dataReader.GetBoolean(0);
+            return (bool)value1;
+        }, 
+        contextType: LibraryManagmentSystem.Data.LibraryContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)' 
+2025-09-01 17:06:55.7836|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2025-09-01 17:06:55.7836|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2025-09-01 17:06:55.7836|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:55.8261|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:55.8261|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2025-09-01 17:06:55.8261|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:06:55.8261|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:06:55.8261|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE LOWER([a].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-09-01 17:06:55.8499|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (23ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE LOWER([a].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-09-01 17:06:55.8551|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:55.8551|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LibraryDb' on server 'LAPTOP-4LPUPLC4' is being disposed after spending 5ms reading results. 
+2025-09-01 17:06:55.8551|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:55.8551|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4' (1ms). 
+2025-09-01 17:06:56.3228|10111|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.NormalizedUserName == __normalizedUserName_0)' 
+2025-09-01 17:06:56.3384|10107|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (string) Required PK AfterSave:Throw, 0], [Property: User.AccessFailedCount (int) Required, 1], [Property: User.ConcurrencyStamp (string) Concurrency, 2], [Property: User.DateCreated (DateTime) Required, 3], [Property: User.Email (string) MaxLength(256), 4], [Property: User.EmailConfirmed (bool) Required, 5], [Property: User.FirstName (string) Required, 6], [Property: User.LastName (string) Required, 7], [Property: User.LockoutEnabled (bool) Required, 8], [Property: User.LockoutEnd (DateTimeOffset?), 9], [Property: User.NormalizedEmail (string) Index MaxLength(256), 10], [Property: User.NormalizedUserName (string) Index MaxLength(256), 11], [Property: User.PasswordHash (string), 12], [Property: User.PhoneNumber (string), 13], [Property: User.PhoneNumberConfirmed (bool) Required, 14], [Property: User.SecurityStamp (string), 15], [Property: User.TwoFactorEnabled (bool) Required, 16], [Property: User.UserName (string) MaxLength(256), 17] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.DateCreated, a.Email, a.EmailConfirmed, a.FirstName, a.LastName, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedUserName == @__normalizedUserName_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (string) Required PK AfterSave:Throw, 0], [Property: User.AccessFailedCount (int) Required, 1], [Property: User.ConcurrencyStamp (string) Concurrency, 2], [Property: User.DateCreated (DateTime) Required, 3], [Property: User.Email (string) MaxLength(256), 4], [Property: User.EmailConfirmed (bool) Required, 5], [Property: User.FirstName (string) Required, 6], [Property: User.LastName (string) Required, 7], [Property: User.LockoutEnabled (bool) Required, 8], [Property: User.LockoutEnd (DateTimeOffset?), 9], [Property: User.NormalizedEmail (string) Index MaxLength(256), 10], [Property: User.NormalizedUserName (string) Index MaxLength(256), 11], [Property: User.PasswordHash (string), 12], [Property: User.PhoneNumber (string), 13], [Property: User.PhoneNumberConfirmed (bool) Required, 14], [Property: User.SecurityStamp (string), 15], [Property: User.TwoFactorEnabled (bool) Required, 16], [Property: User.UserName (string) MaxLength(256), 17] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.DateCreated, a.Email, a.EmailConfirmed, a.FirstName, a.LastName, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedUserName == @__normalizedUserName_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetString(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<Id>k__BackingField = dataReader.GetString(0);
+                                    instance.<AccessFailedCount>k__BackingField = dataReader.GetInt32(1);
+                                    instance.<ConcurrencyStamp>k__BackingField = dataReader.IsDBNull(2) ? default(string) : dataReader.GetString(2);
+                                    instance.<DateCreated>k__BackingField = dataReader.GetDateTime(3);
+                                    instance.<Email>k__BackingField = dataReader.IsDBNull(4) ? default(string) : dataReader.GetString(4);
+                                    instance.<EmailConfirmed>k__BackingField = dataReader.GetBoolean(5);
+                                    instance.<FirstName>k__BackingField = dataReader.GetString(6);
+                                    instance.<LastName>k__BackingField = dataReader.GetString(7);
+                                    instance.<LockoutEnabled>k__BackingField = dataReader.GetBoolean(8);
+                                    instance.<LockoutEnd>k__BackingField = dataReader.IsDBNull(9) ? default(DateTimeOffset?) : (DateTimeOffset?)dataReader.GetFieldValue<DateTimeOffset>(9);
+                                    instance.<NormalizedEmail>k__BackingField = dataReader.IsDBNull(10) ? default(string) : dataReader.GetString(10);
+                                    instance.<NormalizedUserName>k__BackingField = dataReader.IsDBNull(11) ? default(string) : dataReader.GetString(11);
+                                    instance.<PasswordHash>k__BackingField = dataReader.IsDBNull(12) ? default(string) : dataReader.GetString(12);
+                                    instance.<PhoneNumber>k__BackingField = dataReader.IsDBNull(13) ? default(string) : dataReader.GetString(13);
+                                    instance.<PhoneNumberConfirmed>k__BackingField = dataReader.GetBoolean(14);
+                                    instance.<SecurityStamp>k__BackingField = dataReader.IsDBNull(15) ? default(string) : dataReader.GetString(15);
+                                    instance.<TwoFactorEnabled>k__BackingField = dataReader.GetBoolean(16);
+                                    instance.<UserName>k__BackingField = dataReader.IsDBNull(17) ? default(string) : dataReader.GetString(17);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("LibraryManagementSystem.Data.Identity.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: LibraryManagmentSystem.Data.LibraryContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)' 
+2025-09-01 17:06:56.3384|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:56.3824|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:56.3824|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2025-09-01 17:06:56.3824|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:06:56.3824|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:06:56.3824|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0 
+2025-09-01 17:06:56.4001|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (17ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[DateCreated], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0 
+2025-09-01 17:06:56.4001|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:56.4001|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LibraryDb' on server 'LAPTOP-4LPUPLC4' is being disposed after spending 0ms reading results. 
+2025-09-01 17:06:56.4001|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:56.4001|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4' (1ms). 
+2025-09-01 17:06:56.4802|10806|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'LibraryContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-01 17:06:56.4925|10004|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'LibraryContext'. 
+2025-09-01 17:06:56.4925|10800|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'LibraryContext'. 
+2025-09-01 17:06:56.5911|10801|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'LibraryContext'. 
+2025-09-01 17:06:56.8115|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:56.8448|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:56.8543|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2025-09-01 17:06:56.8543|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:06:56.8543|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (1ms). 
+2025-09-01 17:06:56.8543|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [DateCreated], [Email], [EmailConfirmed], [FirstName], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17); 
+2025-09-01 17:06:56.8801|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (24ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [DateCreated], [Email], [EmailConfirmed], [FirstName], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17); 
+2025-09-01 17:06:56.8801|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:56.8801|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LibraryDb' on server 'LAPTOP-4LPUPLC4' is being disposed after spending 8ms reading results. 
+2025-09-01 17:06:56.8801|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:56.8801|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4' (0ms). 
+2025-09-01 17:06:56.9194|10807|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'User' tracked by 'LibraryContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-09-01 17:06:56.9194|10005|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'LibraryContext' with 1 entities written to the database. 
+2025-09-01 17:06:56.9536|31|TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing protect operation to key {0eadaaaa-7e78-4b9a-b5c6-d6842d7acf5d} with purposes ('C:\Users\Remah\Desktop\AST\Projects\LibraryManagementSystem\LibraryManagementSystem\', 'DataProtectorTokenProvider'). 
+2025-09-01 17:06:57.9523|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 2353.3412ms. 
+2025-09-01 17:06:57.9523|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:06:57.9523|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:06:57.9523|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:06:57.9523|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:06:57.9523|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:06:57.9523|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:06:57.9523|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2025-09-01 17:06:57.9523|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-09-01 17:06:57.9523|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2025-09-01 17:06:57.9523|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-09-01 17:06:57.9523|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-09-01 17:06:57.9523|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2025-09-01 17:06:57.9523|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'System.String'. 
+2025-09-01 17:06:57.9523|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.BadRequestObjectResult. 
+2025-09-01 17:06:57.9523|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:06:57.9523|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:06:57.9523|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API) in 2451.6644ms 
+2025-09-01 17:06:57.9523|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API)' 
+2025-09-01 17:06:57.9523|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending HEADERS frame for stream ID 11 with length 34 and flags END_HEADERS. 
+2025-09-01 17:06:57.9523|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'LibraryContext' disposed. 
+2025-09-01 17:06:57.9523|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 11 with length 21 and flags NONE. 
+2025-09-01 17:06:57.9523|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:06:57.9523|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2025-09-01 17:06:57.9523|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2025-09-01 17:06:57.9523|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7143/api/Account/registered - 400 - text/plain;+charset=utf-8 2491.1339ms 
+2025-09-01 17:06:57.9523|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-09-01 17:07:08.5586|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received HEADERS frame for stream ID 13 with length 42 and flags END_HEADERS, PRIORITY. 
+2025-09-01 17:07:08.5586|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-09-01 17:07:08.5586|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-09-01 17:07:08.5586|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received DATA frame for stream ID 13 with length 114 and flags END_STREAM. 
+2025-09-01 17:07:08.5586|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7143/api/Account/registered - application/json 114 
+2025-09-01 17:07:08.5586|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2025-09-01 17:07:08.5586|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Account/registered' 
+2025-09-01 17:07:08.5586|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API)' with route pattern 'api/Account/registered' is valid for the request path '/api/Account/registered' 
+2025-09-01 17:07:08.5586|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API)' 
+2025-09-01 17:07:08.5586|8|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-09-01 17:07:08.5586|9|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2025-09-01 17:07:08.5586|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API)' 
+2025-09-01 17:07:08.5586|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] register(LibraryManagementSystem.API.Controllers.CreatedRegisterRequest) on controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API). 
+2025-09-01 17:07:08.5586|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2025-09-01 17:07:08.5586|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2025-09-01 17:07:08.5671|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2025-09-01 17:07:08.5671|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2025-09-01 17:07:08.5671|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-09-01 17:07:08.5671|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:07:08.5671|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller LibraryManagementSystem.API.Controllers.AccountController (LibraryManagementSystem.API) 
+2025-09-01 17:07:08.5671|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest' ... 
+2025-09-01 17:07:08.5671|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest' using the name '' in request data ... 
+2025-09-01 17:07:08.5671|1|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2025-09-01 17:07:08.5671|25|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HNF9C14SA5PJ", Request id "0HNF9C14SA5PJ:0000000D": started reading request body. 
+2025-09-01 17:07:08.5671|26|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HNF9C14SA5PJ", Request id "0HNF9C14SA5PJ:0000000D": done reading request body. 
+2025-09-01 17:07:08.5671|2|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest' 
+2025-09-01 17:07:08.5671|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest'. 
+2025-09-01 17:07:08.5671|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest'. 
+2025-09-01 17:07:08.5671|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest' ... 
+2025-09-01 17:07:08.5671|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'LibraryManagementSystem.API.Controllers.CreatedRegisterRequest'. 
+2025-09-01 17:07:08.5671|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:07:08.5671|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:07:08.5671|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:07:08.5671|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:07:08.5671|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API) - Validation state: Valid 
+2025-09-01 17:07:08.5671|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API) with arguments (LibraryManagementSystem.API.Controllers.CreatedRegisterRequest) 
+2025-09-01 17:07:08.5671|10403|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 9.0.8 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.8' with options: EngineType=SqlServer  
+2025-09-01 17:07:08.5671|20005|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2025-09-01 17:07:08.5671|20006|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2025-09-01 17:07:08.5671|20000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:07:08.6298|20001|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:07:08.6298|20103|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2025-09-01 17:07:08.6298|20104|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:07:08.6298|20106|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-09-01 17:07:08.6298|20100|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE LOWER([a].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-09-01 17:07:08.6522|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]
+        WHERE LOWER([a].[Email]) = @__ToLower_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-09-01 17:07:08.6522|20301|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:07:08.6522|20300|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'LibraryDb' on server 'LAPTOP-4LPUPLC4' is being disposed after spending 0ms reading results. 
+2025-09-01 17:07:08.6522|20002|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:07:08.6522|20003|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4' (0ms). 
+2025-09-01 17:07:08.6522|103|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API), returned result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult in 80.072ms. 
+2025-09-01 17:07:08.6522|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:07:08.6522|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2025-09-01 17:07:08.6522|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:07:08.6522|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-09-01 17:07:08.6522|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:07:08.6522|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:07:08.6522|5|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:07:08.6522|11|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-09-01 17:07:08.6522|4|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2025-09-01 17:07:08.6522|8|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-09-01 17:07:08.6522|10|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-09-01 17:07:08.6522|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response. 
+2025-09-01 17:07:08.6522|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing UnauthorizedObjectResult, writing value of type 'System.String'. 
+2025-09-01 17:07:08.6522|6|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.UnauthorizedObjectResult. 
+2025-09-01 17:07:08.6522|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:07:08.6522|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-09-01 17:07:08.6522|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API) in 87.7314ms 
+2025-09-01 17:07:08.6522|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending HEADERS frame for stream ID 13 with length 34 and flags END_HEADERS. 
+2025-09-01 17:07:08.6522|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'LibraryManagementSystem.API.Controllers.AccountController.register (LibraryManagementSystem.API)' 
+2025-09-01 17:07:08.6522|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 13 with length 54 and flags NONE. 
+2025-09-01 17:07:08.6522|49|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM. 
+2025-09-01 17:07:08.6522|10407|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'LibraryContext' disposed. 
+2025-09-01 17:07:08.6522|20007|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'LibraryDb' on server 'LAPTOP-4LPUPLC4'. 
+2025-09-01 17:07:08.6522|20008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (0ms). 
+2025-09-01 17:07:08.6522|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7143/api/Account/registered - 401 - text/plain;+charset=utf-8 92.3290ms 
+2025-09-01 17:07:08.6522|37|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNF9C14SA5PJ" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
