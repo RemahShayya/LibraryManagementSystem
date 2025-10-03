@@ -1,0 +1,60 @@
+2025-08-22 12:12:53.7483|0|DEBUG|LibraryManagementSystem.API.Program|init main 
+2025-08-22 12:12:53.8452|0|INFO|LibraryManagementSystem.API.Program|✅ Test log: Application started 
+2025-08-22 12:12:54.0208|0|ERROR|LibraryManagementSystem.API.Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: LibraryManagementSystem.API.Services.JWTService Lifetime: Scoped ImplementationType: LibraryManagementSystem.API.Services.JWTService': Unable to resolve service for type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' while attempting to activate 'LibraryManagementSystem.API.Services.JWTService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' while attempting to activate 'LibraryManagementSystem.API.Services.JWTService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2025-08-22 12:16:52.4915|0|DEBUG|LibraryManagementSystem.API.Program|init main 
+2025-08-22 12:16:52.5453|0|INFO|LibraryManagementSystem.API.Program|✅ Test log: Application started 
+2025-08-22 12:16:52.6549|0|ERROR|LibraryManagementSystem.API.Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: LibraryManagementSystem.API.Services.JWTService Lifetime: Scoped ImplementationType: LibraryManagementSystem.API.Services.JWTService': Unable to resolve service for type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' while attempting to activate 'LibraryManagementSystem.API.Services.JWTService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' while attempting to activate 'LibraryManagementSystem.API.Services.JWTService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2025-08-22 12:43:51.8225|0|DEBUG|LibraryManagementSystem.API.Program|init main 
+2025-08-22 12:43:51.8763|0|INFO|LibraryManagementSystem.API.Program|✅ Test log: Application started 
+2025-08-22 12:43:51.9875|0|ERROR|LibraryManagementSystem.API.Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: LibraryManagementSystem.API.Services.JWTService Lifetime: Scoped ImplementationType: LibraryManagementSystem.API.Services.JWTService': Unable to resolve service for type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' while attempting to activate 'LibraryManagementSystem.API.Services.JWTService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' while attempting to activate 'LibraryManagementSystem.API.Services.JWTService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2025-08-22 12:45:14.7138|0|DEBUG|LibraryManagementSystem.API.Program|init main 
+2025-08-22 12:45:14.7857|0|INFO|LibraryManagementSystem.API.Program|✅ Test log: Application started 
+2025-08-22 12:45:14.9457|0|ERROR|LibraryManagementSystem.API.Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: LibraryManagementSystem.API.Services.JWTService Lifetime: Scoped ImplementationType: LibraryManagementSystem.API.Services.JWTService': Unable to resolve service for type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' while attempting to activate 'LibraryManagementSystem.API.Services.JWTService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' while attempting to activate 'LibraryManagementSystem.API.Services.JWTService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+2025-08-22 14:49:44.7183|0|DEBUG|LibraryManagementSystem.API.Program|init main 
+2025-08-22 14:49:44.8033|0|INFO|LibraryManagementSystem.API.Program|✅ Test log: Application started 
+2025-08-22 14:49:44.9828|0|ERROR|LibraryManagementSystem.API.Program|Stopped program because of exception System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: LibraryManagementSystem.API.Services.JWTService Lifetime: Scoped ImplementationType: LibraryManagementSystem.API.Services.JWTService': Unable to resolve service for type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' while attempting to activate 'LibraryManagementSystem.API.Services.JWTService'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' while attempting to activate 'LibraryManagementSystem.API.Services.JWTService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)

@@ -1,0 +1,7 @@
+{"time":"2025-08-21 08:40:59.5662","event":"0","level":"DEBUG","logger":"LibraryManagementSystem.API.Program","message":"init main"}
+{"time":"2025-08-21 08:40:59.8607","event":"0","level":"INFO","logger":"LibraryManagementSystem.API.Program","message":"✅ Test log: Application started"}
+{"time":"2025-08-21 08:41:01.2255","event":"14","level":"INFO","logger":"Microsoft.Hosting.Lifetime","message":"Now listening on: https://localhost:7143","address":"https://localhost:7143","EventId":14,"EventName":"ListeningOnAddress"}
+{"time":"2025-08-21 08:41:01.2255","event":"14","level":"INFO","logger":"Microsoft.Hosting.Lifetime","message":"Now listening on: http://localhost:5223","address":"http://localhost:5223","EventId":14,"EventName":"ListeningOnAddress"}
+{"time":"2025-08-21 08:41:01.2986","event":"0","level":"INFO","logger":"Microsoft.Hosting.Lifetime","message":"Application started. Press Ctrl+C to shut down."}
+{"time":"2025-08-21 08:41:01.2986","event":"0","level":"INFO","logger":"Microsoft.Hosting.Lifetime","message":"Hosting environment: Development","EnvName":"Development"}
+{"time":"2025-08-21 08:41:01.2986","event":"0","level":"INFO","logger":"Microsoft.Hosting.Lifetime","message":"Content root path: C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem","ContentRoot":"C:\\Users\\Remah\\Desktop\\AST\\Projects\\LibraryManagementSystem\\LibraryManagementSystem"}
